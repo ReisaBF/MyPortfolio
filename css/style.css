@@ -132,6 +132,10 @@ h2 {
 
   h1 {
     font-size: 36px;
+    width: 42%;
+    text-align: center;
+    margin-top: -10rem;
+    margin-left: -3rem;
   }
 
   h2 {
@@ -158,12 +162,15 @@ h2 {
     line-height: 1.4rem;
   }
 
-  .name {
-    margin-top: 10px;
+  .bio {
+    width: 42%;
+    float: right;
+    margin-top: -15rem;
   }
 
-  .bio {
-    width: 45%;
+  .connect {
     float: right;
-    margin-top: -20rem;
+    margin-top: -5rem;
+    margin-right: 11rem;
+    justify-content: center;
   }
