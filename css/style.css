@@ -139,6 +139,7 @@ h2 {
   }
 
   .HeroImage {
+    width: 52%;
     margin-bottom: 10px;
     margin-right: 30px;
   }
@@ -155,4 +156,14 @@ h2 {
     margin-bottom: 15px;
     font-weight: 400;
     line-height: 1.4rem;
+  }
+
+  .name {
+    margin-top: 10px;
+  }
+
+  .bio {
+    width: 45%;
+    float: right;
+    margin-top: -20rem;
   }

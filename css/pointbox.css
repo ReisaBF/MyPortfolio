@@ -89,7 +89,11 @@
     color: #C77708;
   }
 
-  img {
-      height: 50%;
-      width: 50%;
+  hr {
+    border: 1px solid #2F5A71;
+    margin-bottom: 20px;
+  }
+
+  .swot {
+      align-items: center;
   }
