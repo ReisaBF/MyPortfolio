@@ -1,0 +1,158 @@
+:root {
+  font-size: 14px;
+}
+
+body {
+    background: #FAFAFA;
+    padding: 32px;
+}
+
+nav {
+  width: 100%;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 50px;
+  height: 40px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.links {
+  font-size: 1.5rem;
+}
+
+.links a {
+  font-variant: small-caps;
+  text-decoration: none;
+  color: #2F5A71;
+  font-family: "Montserrat";
+  font-weight: bolder;
+}
+
+.links a:not(:last-child) {
+  margin-right: 10px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+}
+
+.HeroImage {
+  width: 55%;
+  height: 100%;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+
+.HeroImage img {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: "Montserrat";
+  font-weight: 200;
+  margin-bottom: 13px;
+  line-height: 1.3rem;
+}
+
+button {
+  font-family: "Montserrat";
+  font-weight: 350;
+  font-size: 14px;
+  color: #FFFFFF;
+  background-color: #2F5A71;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  padding: 10px, 15px;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: 650;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #C77708;
+}
+
+.PointBox {
+  display: block;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.PointBox img {
+  width:100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+      font-size: 20px;
+  }
+
+  .logo {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .links a:not(:last-child) {
+    margin-right: 25px;
+  }
+
+  button {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  .HeroImage {
+    margin-bottom: 10px;
+    margin-right: 30px;
+  }
+
+  nav {
+    margin-bottom: 20px;
+  }
+
+ section {
+    margin-bottom: 35px;
+  }
+
+  p {
+    margin-bottom: 15px;
+    font-weight: 400;
+    line-height: 1.4rem;
+  }
