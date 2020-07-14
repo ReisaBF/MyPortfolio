@@ -103,9 +103,9 @@
   }
 
   .swot {
-    display: inline-flex;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex-block;
+    width: 50%;
+    height: 50%;
   }
 
   h4 {
