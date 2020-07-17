@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/pointbox.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <nav>
@@ -17,13 +17,13 @@
     </nav>
 <!-- Title -->
     <section>
-      <h1>PointBox</h1>
+      <h1 class="pointbox">PointBox</h1>
       <p class="whatPBIs">An online marketplace application that allows Subscribtion Users to trade their unwanted merchandice</p>
       <button>prototype</button>
     </section>
 <!-- Introduction To App -->
     <section>
-      <div><img src="./images/PBHeader.png" />
+      <div class="PBHeader"><img src="./images/PBHeader.png" /></div>
       <h2>Summary</h2>
       <p>PointBox is an online marketplace designed to give subscription users a platform to trade their unwanted merchandise. Since it’s based on the principle of trading, it should be no surprise that this service comes at no extra cost to the user.</p>
       <h2>Problem</h2>
@@ -55,13 +55,15 @@
       <p>70% of subscription users have since canceled their membership.</p>
       <p>62% of previous subscribers made the decision to cancel their membership solely due to an overabundance of products.</p>
       <p>79% of these participants continue using online marketplaces and are satisfied with that form of exchange.</p>
-      <img src="./images/PieCharts.png" />
+      <div class="piecharts"><img src="./images/PieCharts.png" /></div>
     </section>
     <section>
       <h2>User Personas</h2>
       <p>After analyzing the survey results, I proceeded to connect with two of the survey participants and conducted follow-up interviews with each of them. From there, I was able to create user personas and finally put some names to faces! Clara is a full-time mom and Susan is a career-driven individual. While their lifestyles are very different from one another, the unifying factor is simple: a lack of spare time.</p>
-      <img src="./images/UserPersonaA.png" />
-      <img src="./images/UserPersonaB.png" />
+      <div class="userpersonas">
+        <img src="./images/UserPersonaA.png" />
+        <img src="./images/UserPersonaB.png" />
+      </div>
     </section>
 <!-- Strategy -->
     <section>
@@ -69,7 +71,7 @@
       <p>It was time to prioritize what features are most important to both new and returning users. I focused mainly on high priority tasks. However, knowing that ideas are constantly evolving, I decided to include a few medium and low priority tasks as well.</p>
       <h4>What good is a list of user stories without a demonstrated layout of operations?</h4>
       <p>With my user stories now in place, I was able to identify what functions are the most important and, with a pen and paper, began to draw rough drafts of what those processes might look like. Referencing my Competitive Analysis was an extremely useful resource, as there are generic layouts already in place for popular tasks. Because PointBox ONLY supports products from specific subscription boxes rather than an unlimited pool of resources, I quickly learned that the biggest differentiating features would be how to categorize an item being listed, and how to filter searched results. Based off of my sketches and some feedback from my client, I used Whimsical to create more refined versions of my user flows.</p>
-      <img src="./images/UserFlow.png" />
+      <div class="userflow"><img src="./images/UserFlow.png" /></div>
       <br>
       <button>user stories</button>
       <button>sketch flows</button>
@@ -81,7 +83,7 @@
       <p>The best way to describe PointBox is “spread-the-love!” PointBox is an eco-friendly and community-based company who’s goal is to connect users and give them an opportunity to try and trade products without spending any extra money. Since I had defined the emotion behind my product, I was ready to create a logo that embodied those qualities. Taking my pen to paper, I worked on creating an image that portrays the idea of recycling-love, or “what goes around comes around”.</p>
       <br>
       <p>When picking my color palette, I decided that a “red” theme made sense being that it’s so closely associated with the feeling of love. I went with a red over pink because it’s more of a statement color and it appeals to a variety of personalities. The reasoning behind keeping such a limited color palette is to keep the inventory as the main focus of the app. For the logo’s name and slogan, I wanted to use two different yet complementary fonts. At first, I liked Karla for the header and Montserrat for the subheader because they are all sans-serifs fonts with even spacing and clean lines. However, when placed next to the logo, the text wasn’t bold enough. I then made the decision to change the header to Rubik and the subheader to Rounded Mplus 1c, which shared all the same “clean” qualities as my first option, but with much more weight.</p>
-      <img src="./images/StyleGuide.png" />
+      <div class="styleguide"><img src="./images/StyleGuide.png" /></div>
       <br>
       <button>style guide</button>
     </section>
@@ -90,7 +92,7 @@
       <p>I began designing and bringing my User Flows to life. Once I felt that I had thoroughly covered all of my High Priority tasks, I used Figma to generate a digital version and performed multiple usability tests.</p>
       <br>
       <p>While mostly positive feedback was given, there were a few obstacles encountered as our test subjects navigated their way through the app. Most had difficulty identifying the ‘profile’ tab, needing a more efficient way to filter the user’s browsing options, and knowing how to categorize an item you’re listing. In response, the marker placed under the navbar was used more directly, a drop-down filter menu replaced the screen-slide, and imagery was used in the later mockups for intuitive assistance while listing an item.</p>
-      <img src="./images/LFM.png" />
+      <div class="LFM"><img src="./images/LFM.png" /></div>
       <br>
       <button>prototype</button>
       <button>usability test</button>
@@ -102,24 +104,24 @@
       <div class="preferenceTesting">
         <h4>Final Step - Listing</h5>
         <p>4/5 people preferred the buttons be listed in a vertical layout over a horizontal layout, which I agreed with.</p>
-        <img src="./images/PT1.png" />
+        <div class="testone"><img src="./images/PT1.png" /></div>
         <br>
         <br>
         <h4>Final Step - Posting</h5>
         <p>4/5 people preferred “10 Points” in red over black, which I agreed with.</p>
-        <img src="./images/PT2.png" />
+        <div class="testtwo"><img src="./images/PT2.png" /></div>
         <br>
         <br>
         <h4>Header Layout - Listing</h5>
         <p>3/5 people preferred the double border on the header over the single line beneath it, which I disagreed with. I still felt that the single underline layout has a cleaner presence, and decided to stick with that version.</p>
-        <img src="./images/PT3.png" />
+        <div class="testthree"><img src="./images/PT3.png" /></div>
       </div>
     </section>
 <!-- Visual Design -->
     <section>
       <h2>High Fidelity Mockups &amp; Usability Test</h2>
       <p>Using my updated mockups, I performed another usability test. I was pleased to see that the changes mentioned in my wireframes translated well to the users in my new mockups- the navbar marker being placed more precisely to direct the user to their profile tab showed a 90% success rate. Based on their comments, observations, and reactions I decided to implement an ‘edit’ page when listing an item, and even more filtering options for when a user is browsing products.</p>
-      <img src="./images/HFM.png" />
+      <div class="HFM"><img src="./images/HFM.png" /></div>
       <br>
       <button>prototype</button>
       <button>usability test</button>
