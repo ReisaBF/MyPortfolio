@@ -61,7 +61,7 @@ section {
 .reisa {
   font-family: "Montserrat";
   font-weight: 700;
-  font-size: 18px;
+  font-size: 26px;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -109,7 +109,29 @@ h3 {
   height: 100%;
 }
 
-/* PointBox Case Study */
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: 1.5rem;
+  margin-top: 25px;;
+  margin-bottom: 10px;
+}
+
+.linkedin img {
+  width: 50%;
+}
+
+.gmail img {
+  width: 50%;
+}
+
+.twitter img {
+  width: 50%;
+}
+
+/* CSS specific to PointBox Case Study */
 
 .pointbox {
   font-weight: 750;
@@ -167,24 +189,24 @@ h3 {
 }
 
 .swot {
-      display: flex;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
   }
 
-.swot1 {
-      width: 10%;
-      height: 10%;
-      padding-right: 5px;
+.swot1 img {
+  width: 6rem;
   }
 
-  .swot2 {
-    width: 50%;
-    height: 100%;
+  .swot2 img {
+    width: 10rem;
+    padding-right: 6px;
   }
 
-  .swot3 {
-    width: 35%;
-    height: 35%;
-    padding-left: 10px;
+  .swot3 img {
+    width: 7rem;
   }
 
   .testone img {
@@ -210,7 +232,7 @@ h3 {
 
   h4 {
     font-family: "Montserrat";
-    font-weight: 500;
+    font-weight: 550;
     font-size: 14px;
     margin-top: 10px;
     margin-bottom: 5px;
@@ -240,6 +262,64 @@ h3 {
   .preferenceTesting {
       text-align: center;
   }
+
+/* CSS specific to Bio page */
+
+.how {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 26px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+.glad {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.subbio {
+  font-family: "Montserrat";
+  text-align: center;
+  font-size: 16px;
+  font-weight: 200;
+  margin-bottom: 13px;
+  line-height: 1.6rem;
+}
+
+.SubheroImage img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  float: left;
+}
+
+.search img {
+  width: 9%;
+  height: 9%;
+  float: left;
+  padding-right: 10px;
+}
+
+.load img {
+  width: 10%;
+  height: 10%;
+  float: left;
+  padding-right: 10px;
+}
+
+.done img {
+  width: 10%;
+  height: 10%;
+  float: left;
+  padding-right: 10px;
+}
 
 @media screen and (min-width: 768px) {
   :root {
