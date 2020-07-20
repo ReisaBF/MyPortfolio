@@ -1,84 +1,31 @@
-:root {
-  font-size: 13px;
-}
+/* Universal CSS applied to ALL pages */
 
-html {
-  overflow-x: hidden;
-}
+  :root {
+    font-size: 13px;
+  }
 
-body {
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
     background: #FAFAFA;
     padding: 32px;
     overflow-x: hidden;
-}
+  }
 
-nav {
-  width: 100%;
-  font-size: 1.2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 10px;
-}
+  section {
+    margin-bottom: 20px;
+  }
 
-.logo {
-  width: 50px;
-  height: 40px;
-}
+  p {
+    font-family: "Montserrat";
+    font-weight: 200;
+    margin-bottom: 13px;
+    line-height: 1.4rem;
+  }
 
-.logo img {
-  width: 100%;
-  height: 100%;
-}
-
-.links {
-  font-size: 1.5rem;
-}
-
-.links a {
-  font-variant: small-caps;
-  text-decoration: none;
-  color: #2F5A71;
-  font-family: "Montserrat";
-  font-weight: bolder;
-}
-
-.links a:not(:last-child) {
-  margin-right: 10px;
-}
-
-section {
-  margin-bottom: 20px;
-}
-
-.intro {
-  display: block;
-  align-items: center;
-}
-
-.HeroImage img {
-  width: 100%;
-  height: 100%;
-  margin-bottom: 10px;
-  margin-right: 10px;
-}
-
-.reisa {
-  font-family: "Montserrat";
-  font-weight: 700;
-  font-size: 26px;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-p {
-  font-family: "Montserrat";
-  font-weight: 200;
-  margin-bottom: 13px;
-  line-height: 1.4rem;
-}
-
-button {
+  button {
     font-family: "Montserrat";
     font-weight: 350;
     font-size: 14px;
@@ -94,188 +41,110 @@ button {
     padding: 15px, 15px;
   }
 
-h3 {
-  font-family: "Montserrat";
-  font-weight: 650;
-  font-size: 16px;
-  margin-bottom: 10px;
-  color: #C77708;
-}
-
-.PointBox {
-  display: block;
-  margin-left: auto;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-
-.PointBox img {
-  width:100%;
-  height: 100%;
-}
-
-footer {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-right: auto;
-  margin-left: 1.5rem;
-  margin-top: 25px;;
-  margin-bottom: 10px;
-}
-
-.linkedin img {
-  width: 50%;
-}
-
-.gmail img {
-  width: 50%;
-}
-
-.twitter img {
-  width: 50%;
-}
-
-/* CSS specific to PointBox Case Study */
-
-.pointbox {
-  font-weight: 750;
-  font-size: 18px;
-  margin-bottom: 10px;
-  color: #F00102;
-  text-align: center;
-  padding-top: 5px;
-}
-
-.whatPBIs {
-  font-family: "Montserrat";
-  text-align: center;
-}
-
-.PBHeader img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  margin-bottom: 15px;
-}
-
-.piecharts img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  margin-bottom: 15px;
-}
-
-.userpersonas img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  margin-bottom: 15px;
-}
-
-.userflow img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  margin-bottom: 15px;
-}
-
-.styleguide img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  margin-bottom: 15px;
-}
-
-.LFM img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  margin-bottom: 15px;
-}
-
-.swot {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 10px;
-  }
-
-.swot1 img {
-  width: 6rem;
-  }
-
-  .swot2 img {
-    width: 10rem;
-    padding-right: 6px;
-  }
-
-  .swot3 img {
-    width: 7rem;
-  }
-
-  .backgroundcolored {
-    margin: 0 -9999rem;
-    padding: 1.5rem 9999rem;
-    background: #F5EDE2;
-    margin-bottom: 1rem;
-  }
-
-  .surveystatsB {
-    display: flex;
-    padding-top: 1%;
+  h3 {
     font-family: "Montserrat";
-    width: 80%;
-    float: right;
+    font-weight: 650;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #C77708;
   }
 
-  .stat1B {
-    width: 40%;
-    padding-right: 2rem;
-    padding-left: 2rem;
-    font-weight: 800;
+  /* Top Bar */
+    nav {
+      width: 100%;
+      font-size: 1.2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .logo {
+      width: 50px;
+      height: 40px;
+    }
+
+    .logo img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .links {
+      font-size: 1.5rem;
+    }
+
+    .links a {
+      font-variant: small-caps;
+      text-decoration: none;
+      color: #2F5A71;
+      font-family: "Montserrat";
+      font-weight: bolder;
+    }
+
+    .links a:not(:last-child) {
+      margin-right: 10px;
+    }
+  
+  /* Contact Links at bottom */
+    footer {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-right: auto;
+      margin-left: 1.5rem;
+      margin-top: 25px;;
+      margin-bottom: 10px;
+    }
+  
+    .linkedin img {
+      width: 50%;
+    }
+  
+    .gmail img {
+      width: 50%;
+    }
+  
+    .twitter img {
+      width: 50%;
+    }
+
+/* Specific to Homepage (index) */
+
+  .intro {
+    display: block;
+    align-items: center;
   }
 
-  .stat2B {
-    width: 40%;
-    padding-left: 7rem;
-    font-weight: 800;
-  }
-
-  .testone img {
+  /* My Homepage Picture */
+  .HeroImage img {
     width: 100%;
     height: 100%;
-    display: block;
+    margin-bottom: 10px;
+    margin-right: 10px;
   }
 
-  .testtwo img {
-    width: 100%;
-    height: 100%;
-    display: block;
-  }
-
-  .testthree img {
-    width: 100%;
-    height: 100%;
-    display: block;
-  }
-
-  h4 {
+  /* H1 */
+  .reisa {
     font-family: "Montserrat";
-    font-weight: 550;
-    font-size: 14px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    line-height: 1.3rem;
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 10px;
+    text-align: center;
   }
 
-  .HFM img {
-    width: 100%;
-    height: 100%;
+  .PointBoxIndex {
     display: block;
-    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
   }
+
+  .PointBoxIndex img {
+    width:100%;
+    height: 100%;
+  }
+
+/* CSS specific to PointBox Case Study (project) */
 
   h2 {
     font-family: "Montserrat";
@@ -290,316 +159,490 @@ footer {
     margin-bottom: 20px;
   }
 
-  .preferenceTesting {
-      text-align: center;
+  h4 {
+    font-family: "Montserrat";
+    font-weight: 550;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    line-height: 1.3rem;
   }
+
+  /* Background of Specific Sections */
+  .backgroundcolored {
+    margin: 0 -9999rem;
+    padding: 1.5rem 9999rem;
+    background: #F5EDE2;
+    margin-bottom: 1rem;
+  }
+
+  /* H1 */
+  .pointboxtitle {
+    font-weight: 750;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #F00102;
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  /* Description of app */
+  .whatPBIs {
+    font-family: "Montserrat";
+    text-align: center;
+  }
+
+  .PBHeader img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  /* Competitive Analysis Section */
+    .swot {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .swot1 img {
+      width: 6rem;
+    }
+
+    .swot2 img {
+      width: 10rem;
+      padding-right: 6px;
+    }
+
+    .swot3 img {
+      width: 7rem;
+    }
+
+
+  /* User Research Section */
+    .surveystatsB {
+      display: flex;
+      padding-top: 1%;
+      font-family: "Montserrat";
+      width: 80%;
+      float: right;
+    }
+
+    .stat1B {
+      width: 40%;
+      padding-right: 2rem;
+      padding-left: 2rem;
+      font-weight: 800;
+    }
+
+    .stat2B {
+      width: 40%;
+      padding-left: 7rem;
+      font-weight: 800;
+    }
+
+    .piecharts img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      margin-bottom: 15px;
+    }
+
+  /* User Personas Section */
+  .userpersonas img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  /* User Stories & Flows Section */
+  .userflow img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  /* Branding Section */
+  .styleguide img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  /* Wireframes & Usability Tests Section */
+  .LFM img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  /* Preference Tests Section */
+    .preferenceTesting {
+      text-align: center;
+    }
+    .testone img {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .testtwo img {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .testthree img {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+  /* High Fidelity Mockups & Usability Tests Section */
+    .HFMsection {
+      padding-top: 15px;
+    }
+
+    .HFM img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      margin-bottom: 15px;
+    }
 
 /* CSS specific to Bio page */
-
-.how {
-  font-family: "Montserrat";
-  font-weight: 600;
-  font-size: 26px;
-  margin-bottom: 10px;
-  margin-top: 15px;
-  line-height: 2.5rem;
-  text-align: center;
-}
-
-.glad {
-  font-family: "Montserrat";
-  font-weight: 500;
-  font-size: 24px;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.subbio {
-  font-family: "Montserrat";
-  text-align: center;
-  font-size: 16px;
-  font-weight: 200;
-  line-height: 1.6rem;
-}
-
-.SubheroImage img {
-  width: 100%;
-  height: 100%;
-  margin-bottom: 20px;
-  margin-right: 10px;
-  float: left;
-}
-
-.search img {
-  width: 9%;
-  height: 9%;
-  float: left;
-  padding-right: 10px;
-}
-
-.load img {
-  width: 10%;
-  height: 10%;
-  float: left;
-  padding-right: 10px;
-}
-
-.done img {
-  width: 10%;
-  height: 10%;
-  float: left;
-  padding-right: 10px;
-}
-
-/* CSS specific to PointBox Case Study */
-
-form {
-  width: 100%;
-  text-transform: uppercase;
-  text-align: center;
-  display: inline-block;
-  margin-left: -1.5rem;
-  font-family: "Montserrat";
-  font-weight: 600;
-  font-size: 14px;
-  text-align: center;
-  padding: 20px;
-}
-
-.email {
-  padding-bottom: 15px;
-}
-
-.message {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-input {
-  width: 80%;
-  height: 20px;
-  border-color: #2F5A71;
-  border-width: .2rem;
-}
-
-textarea {
-  width: 80%;
-  height: 200px;
-  border-color: #2F5A71;
-  border-width: .2rem;
-}
-
-label {
-  color: #C77708;
-}
-
-.contactbtn {
-  margin-top: 15px;
-}
-
-@media screen and (min-width: 768px) {
-  :root {
-      font-size: 20px;
-  }
-
-  .logo {
-    width: 3rem;
-    height: 3rem;
-  }
-
-  .links a:not(:last-child) {
-    margin-right: 25px;
-  }
-
-  button {
-    font-size: 20px;
-  }
-
-  .reisa {
-    font-size: 36px;
-    padding-bottom: 10px;
-    text-align: left;
-  }
-
-  h3 {
-    font-size: 25px;
-  }
-
-  .HeroImage {
-    width: 52%;
-    margin-bottom: 10px;
-    margin-right: 30px;
-  }
-
-  nav {
-    margin-bottom: 20px;
-  }
-
- section {
-    margin-bottom: 35px;
-  }
-
-  p {
-    font-size: 20px;
-    margin-bottom: 20px;
-    font-weight: 500;
-    line-height: 1.4rem;
-  }
-
-  .linkedin img {
-    width: 80%;
-  }
   
-  .gmail img {
-    width: 80%;
-  }
-  
-  .twitter img {
-    width: 80%;
-  }
-
-  .bio {
-    float: right;
-    width: 46%;
-    margin-top: -20rem;
-    position: relative;
-  }
-
-  .indexconnectbtn {
-    margin-left: -.1rem;
-  }
-
-  .PointBox img {
-    width:50%;
-    float: right;
-    padding-bottom: 40px;
-    padding-left: 15px;
-  }
-
-  .prototypebtn {
+  /* My Bio Picture */
+  .SubheroImage img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    margin-right: 10px;
     float: left;
   }
 
-  .pbhomepage {
-    padding-top: 15px;
-  }
-
-  /* CSS specific to Bio */
-
-  .SubheroImage img {
-    width: 52%;
-    margin-bottom: 10px;
-    margin-right: 300px;
-  }
-
-  .uxjourney {
-    display: inline-block;
-    padding-top: 20px;
-  }
-
-  .search img {
-    width: 5%;
-  }
-  
-  .load img {
-    width: 5%;
-  }
-  
-  .done img {
-    width: 5%;
-  }
-
-    /* CSS specific to PointBox Case Study */
-
-    .pointbox {
-      font-size: 30px;
-    }
-
-    h2 {
-      font-size: 25px;
-    }
-
-    .whatPBIs {
-      font-size: 20px;
-    }
-
-    .swotsection {
-      display: flex;
-      padding: 5% 0;
-    }
-
-    .swottitle {
-      display: inline-block;
-      padding: 5% 0;
-    }
-
-    .swot {
-      float: right;
-      display: inline-block;
+  /* Picture Subtitle */
+    .how {
+      font-family: "Montserrat";
+      font-weight: 600;
+      font-size: 26px;
+      margin-bottom: 10px;
+      margin-top: 15px;
+      line-height: 2.5rem;
       text-align: center;
-      padding-top: 4rem;
-      padding-left: 15px;
     }
 
-    .swot3 {
-      padding-top: 10px;
+    .glad {
+      font-family: "Montserrat";
+      font-weight: 500;
+      font-size: 24px;
+      margin-bottom: 10px;
+      text-align: center;
     }
 
-    .surveystatsA {
-      display: flex;
+    .subbio {
+      font-family: "Montserrat";
+      text-align: center;
+      font-size: 16px;
+      font-weight: 200;
+      line-height: 1.6rem;
+    }
+
+  /* Bio Icons */
+    .search img {
+      width: 9%;
+      height: 9%;
+      float: left;
+      padding-right: 10px;
+    }
+
+    .load img {
+      width: 10%;
+      height: 10%;
+      float: left;
+      padding-right: 10px;
+    }
+
+    .done img {
+      width: 10%;
+      height: 10%;
+      float: left;
+      padding-right: 10px;
+    }
+
+/* CSS specific to Contact Form */
+
+  form {
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    margin-left: -1.5rem;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  label {
+    color: #C77708;
+  }
+
+  /* Email section */
+    .email {
       padding-bottom: 15px;
     }
 
-    .stat1A {
-      width: 150%;
+    input {
+      width: 80%;
+      height: 20px;
+      border-color: #2F5A71;
+      border-width: .2rem;
+    }
+
+  /* Message section */
+    .message {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
+    textarea {
+      width: 80%;
+      height: 200px;
+      border-color: #2F5A71;
+      border-width: .2rem;
+    }
+
+  .contactbtn {
+    margin-top: 15px;
+  }
+
+@media screen and (min-width: 768px) {
+  /* Universal CSS applied to ALL pages */
+    :root {
+      font-size: 20px;
+    }
+
+    section {
+      margin-bottom: 35px;
+    }
+
+    p {
+      font-size: 20px;
+      margin-bottom: 20px;
+      font-weight: 500;
+      line-height: 1.4rem;
+    }
+
+    button {
+      font-size: 20px;
+    }
+
+    h3 {
+      font-size: 25px;
+    }
+
+    /* Top Bar */
+      nav {
+        margin-bottom: 20px;
+      }
+
+      .logo {
+        width: 3rem;
+        height: 3rem;
+      }
+
+      .links a:not(:last-child) {
+        margin-right: 25px;
+      }
+
+    /* Contact Links at bottom */
+      .linkedin img {
+        width: 80%;
+      }
+  
+      .gmail img {
+        width: 80%;
+      }
+  
+      .twitter img {
+        width: 80%;
+      }
+  
+  /* Specific to Homepage (index) */
+  
+    .HeroImage {
+      width: 52%;
+      margin-bottom: 10px;
+      margin-right: 30px;
+    }
+
+    .bio {
+      float: right;
+      width: 46%;
+      margin-top: -20rem;
+      position: relative;
+    }
+
+    /* H1 */
+    .reisa {
+      font-size: 36px;
+      padding-bottom: 10px;
+      text-align: left;
+    }
+
+    .indexconnectbtn {
+      margin-left: -.1rem;
+    }
+
+    .pbhomepage {
+      padding-top: 15px;
+    }
+
+    .PointBoxIndex img {
+      width:50%;
+      float: right;
+      padding-bottom: 40px;
       padding-left: 15px;
     }
 
-    .stat2A {
-      width: 150%;
-      padding-right: 25px;
-      padding-left: 15px;
+    .prototypebtn {
+      float: left;
     }
 
-    .stat3A {
-      width: 150%;
-    }
+  /* CSS specific to PointBox Case Study */
 
-    .surveystatsB {
-      padding-top: 3%;
-    }
-
-    .threecombo {
-      display: flex;
+    h2 {
+      font-size: 25px;
     }
 
     h4 {
       font-size: 26px;
     }
 
-    .preferenceTesting {
-      width: 100%;
+    /* H1 */
+    .pointboxtitle {
+      font-size: 30px;
+    }
+
+    /* Description of app */
+    .whatPBIs {
+      font-size: 20px;
+    }
+
+    /* Display 3 buttons horizontally */
+    .threecombo {
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-      align-items: baseline;
-  }
-
-    .pt1 {
-      width: 30%;
-      padding-left: 3%;
-      padding-right: 3%;
     }
 
-    .pt2 {
-      width: 30%;
-      padding-left: 3%;
-      padding-right: 3%;
+    /* Competitive Analysis Section */
+
+      .swotsection {
+        display: flex;
+        padding: 5% 0;
+      }
+
+      .swottitle {
+        display: inline-block;
+        padding: 5% 0;
+      }
+    
+      .swot {
+        float: right;
+        display: inline-block;
+        text-align: center;
+        padding-top: 4rem;
+        padding-left: 15px;
+      }
+
+      .swot3 {
+        padding-top: 10px;
+      }
+
+    /* User Research Section */
+      .surveystatsA {
+        display: flex;
+        padding-bottom: 15px;
+      }
+
+      .stat1A {
+        width: 150%;
+        padding-left: 15px;
+      }
+
+      .stat2A {
+        width: 150%;
+        padding-right: 25px;
+        padding-left: 15px;
+      }
+
+      .stat3A {
+        width: 150%;
+      }
+
+      .surveystatsB {
+        padding-top: 3%;
+      }
+      
+    /* Preference Tests Section */
+      .preferenceTesting {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-items: baseline;
+      }
+
+      .pt1 {
+        width: 30%;
+        padding-left: 3%;
+        padding-right: 3%;
+      }
+
+      .pt2 {
+        width: 30%;
+        padding-left: 3%;
+        padding-right: 3%;
+      }
+
+      .pt3 {
+        width: 30%;
+        padding-left: 3%;
+        padding-right: 3%;
+      }
+
+  /* CSS specific to Bio */
+
+    /* My Bio Picture */
+    .SubheroImage img {
+      width: 52%;
+      margin-bottom: 10px;
+      margin-right: 300px;
     }
 
-    .pt3 {
-      width: 30%;
-      padding-left: 3%;
-      padding-right: 3%;
+    .uxjourney {
+      display: inline-block;
+      padding-top: 20px;
     }
+    
+    /* Bio Icons */
+      .search img {
+        width: 5%;
+      }
+  
+      .load img {
+        width: 5%;
+      }
+  
+      .done img {
+        width: 5%;
+      }
 }
