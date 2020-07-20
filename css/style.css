@@ -2,9 +2,14 @@
   font-size: 13px;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
     background: #FAFAFA;
     padding: 32px;
+    overflow-x: hidden;
 }
 
 nav {
@@ -143,6 +148,7 @@ footer {
 }
 
 .whatPBIs {
+  font-family: "Montserrat";
   text-align: center;
 }
 
@@ -209,25 +215,50 @@ footer {
     width: 7rem;
   }
 
+  .backgroundcolored {
+    margin: 0 -9999rem;
+    padding: 1.5rem 9999rem;
+    background: #F5EDE2;
+    margin-bottom: 1rem;
+  }
+
+  .surveystatsB {
+    display: flex;
+    padding-top: 1%;
+    font-family: "Montserrat";
+    width: 80%;
+    float: right;
+  }
+
+  .stat1B {
+    width: 40%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-weight: 800;
+  }
+
+  .stat2B {
+    width: 40%;
+    padding-left: 7rem;
+    font-weight: 800;
+  }
+
   .testone img {
     width: 100%;
     height: 100%;
     display: block;
-    margin-bottom: 20px;
   }
 
   .testtwo img {
     width: 100%;
     height: 100%;
     display: block;
-    margin-bottom: 20px;
   }
 
   .testthree img {
     width: 100%;
     height: 100%;
     display: block;
-    margin-bottom: 15px;
   }
 
   h4 {
@@ -288,7 +319,6 @@ footer {
   text-align: center;
   font-size: 16px;
   font-weight: 200;
-  margin-bottom: 13px;
   line-height: 1.6rem;
 }
 
@@ -321,6 +351,52 @@ footer {
   padding-right: 10px;
 }
 
+/* CSS specific to PointBox Case Study */
+
+form {
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  margin-left: -1.5rem;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  padding: 20px;
+}
+
+.email {
+  padding-bottom: 15px;
+}
+
+.message {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+input {
+  width: 80%;
+  height: 20px;
+  border-color: #2F5A71;
+  border-width: .2rem;
+}
+
+textarea {
+  width: 80%;
+  height: 200px;
+  border-color: #2F5A71;
+  border-width: .2rem;
+}
+
+label {
+  color: #C77708;
+}
+
+.contactbtn {
+  margin-top: 15px;
+}
+
 @media screen and (min-width: 768px) {
   :root {
       font-size: 20px;
@@ -339,9 +415,10 @@ footer {
     font-size: 20px;
   }
 
-  h1 {
+  .reisa {
     font-size: 36px;
     padding-bottom: 10px;
+    text-align: left;
   }
 
   h3 {
@@ -363,15 +440,166 @@ footer {
   }
 
   p {
+    font-size: 20px;
     margin-bottom: 20px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.4rem;
+  }
+
+  .linkedin img {
+    width: 80%;
+  }
+  
+  .gmail img {
+    width: 80%;
+  }
+  
+  .twitter img {
+    width: 80%;
   }
 
   .bio {
     float: right;
     width: 46%;
     margin-top: -20rem;
-    text-align: center;
+    position: relative;
   }
+
+  .indexconnectbtn {
+    margin-left: -.1rem;
+  }
+
+  .PointBox img {
+    width:50%;
+    float: right;
+    padding-bottom: 40px;
+    padding-left: 15px;
+  }
+
+  .prototypebtn {
+    float: left;
+  }
+
+  .pbhomepage {
+    padding-top: 15px;
+  }
+
+  /* CSS specific to Bio */
+
+  .SubheroImage img {
+    width: 52%;
+    margin-bottom: 10px;
+    margin-right: 300px;
+  }
+
+  .uxjourney {
+    display: inline-block;
+    padding-top: 20px;
+  }
+
+  .search img {
+    width: 5%;
+  }
+  
+  .load img {
+    width: 5%;
+  }
+  
+  .done img {
+    width: 5%;
+  }
+
+    /* CSS specific to PointBox Case Study */
+
+    .pointbox {
+      font-size: 30px;
+    }
+
+    h2 {
+      font-size: 25px;
+    }
+
+    .whatPBIs {
+      font-size: 20px;
+    }
+
+    .swotsection {
+      display: flex;
+      padding: 5% 0;
+    }
+
+    .swottitle {
+      display: inline-block;
+      padding: 5% 0;
+    }
+
+    .swot {
+      float: right;
+      display: inline-block;
+      text-align: center;
+      padding-top: 4rem;
+      padding-left: 15px;
+    }
+
+    .swot3 {
+      padding-top: 10px;
+    }
+
+    .surveystatsA {
+      display: flex;
+      padding-bottom: 15px;
+    }
+
+    .stat1A {
+      width: 150%;
+      padding-left: 15px;
+    }
+
+    .stat2A {
+      width: 150%;
+      padding-right: 25px;
+      padding-left: 15px;
+    }
+
+    .stat3A {
+      width: 150%;
+    }
+
+    .surveystatsB {
+      padding-top: 3%;
+    }
+
+    .threecombo {
+      display: flex;
+    }
+
+    h4 {
+      font-size: 26px;
+    }
+
+    .preferenceTesting {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      align-items: baseline;
+  }
+
+    .pt1 {
+      width: 30%;
+      padding-left: 3%;
+      padding-right: 3%;
+    }
+
+    .pt2 {
+      width: 30%;
+      padding-left: 3%;
+      padding-right: 3%;
+    }
+
+    .pt3 {
+      width: 30%;
+      padding-left: 3%;
+      padding-right: 3%;
+    }
 }
