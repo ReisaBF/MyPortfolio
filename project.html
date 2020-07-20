@@ -21,7 +21,7 @@
 <!-- Title -->
     <section>
       <h1 class="pointboxtitle">PointBox</h1>
-      <p class="whatPBIs">An online marketplace application that allows Subscribtion Users to trade their unwanted merchandice</p>
+      <p class="whatPBIs">PointBox is an online marketplace application that allows Subscribtion Users to trade their unwanted merchandice.</p>
       <button>prototype</button>
     </section>
 <!-- Introduction To App -->
@@ -35,7 +35,7 @@
       <p>That’s where PointBox comes in! For every item listed, the user will receive points that are automatically loaded into their account. Those points are then used as currency, allowing the user to obtain any item from any subscription that’s up-for-trade.</p>
     </section>
     <hr>
-    <section>
+    <section class="processSection">
       <h2>Process</h2>
       <p>Like most women I know, I’ve caved and subscribed to a beauty box or two over the years. As the months passed, I started to notice that I was receiving products faster than I was able to use them. I quickly found out I wasn’t the only one experiencing this problem…</p>
       <br>
@@ -53,7 +53,7 @@
         <div class="swot3"><img src="./images/SWOTdepop.png" /></div>
       </div>
     </section>
-    <section>
+    <section class="userresearchSection">
       <h2>User Research</h2>
       <p>Conducting a survey was essential in gathering the information I would eventually need for my user stories &amp; flows. The untapped potential to create a brand that bridges the gap between these two marketplaces became instantly clear!</p>
       <br>
@@ -74,37 +74,39 @@
       <h2>User Personas</h2>
       <p>After analyzing the survey results, I proceeded to connect with two of the survey participants and conducted follow-up interviews with each of them. From there, I was able to create user personas and finally put some names to faces! Clara is a full-time mom and Susan is a career-driven individual. While their lifestyles are very different from one another, the unifying factor is simple: a lack of spare time.</p>
       <div class="userpersonas">
-        <img src="./images/UserPersonaA.png" />
-        <img src="./images/UserPersonaB.png" />
+        <div class="userpersonaA"><img src="./images/UserPersonaA.png" /></div>
+        <div class="userpersonaB"><img src="./images/UserPersonaB.png" /></div>
       </div>
     </section>
     <br>
 <!-- Strategy -->
-    <section class="backgroundcolored">
-      <h2>User Stories &amp; Flows</h2>
-      <p>It was time to prioritize what features are most important to both new and returning users. I focused mainly on high priority tasks. However, knowing that ideas are constantly evolving, I decided to include a few medium and low priority tasks as well.</p>
-      <h4>What good is a list of user stories without a demonstrated layout of operations?</h4>
-      <br>
-      <p>With my user stories now in place, I was able to identify what functions are the most important and, with a pen and paper, began to draw rough drafts of what those processes might look like. Referencing my Competitive Analysis was an extremely useful resource, as there are generic layouts already in place for popular tasks. Because PointBox ONLY supports products from specific subscription boxes rather than an unlimited pool of resources, I quickly learned that the biggest differentiating features would be how to categorize an item being listed, and how to filter searched results. Based off of my sketches and some feedback from my client, I used Whimsical to create more refined versions of my user flows.</p>
-      <div class="userflow"><img src="./images/UserFlow.png" /></div>
-      <br>
-      <div class="threecombo">
-        <button>user stories</button>
-        <button>sketch flows</button>
-        <button>digital flows</button>
-      </div>
-    </section>
+    <div class="backgroundcolored">
+      <section>
+        <h2>User Stories &amp; Flows</h2>
+        <p>It was time to prioritize what features are most important to both new and returning users. I focused mainly on high priority tasks. However, knowing that ideas are constantly evolving, I decided to include a few medium and low priority tasks as well.</p>
+        <h4>What good is a list of user stories without a demonstrated layout of operations?</h4>
+        <br>
+        <p>With my user stories now in place, I was able to identify what functions are the most important and, with a pen and paper, began to draw rough drafts of what those processes might look like. Referencing my Competitive Analysis was an extremely useful resource, as there are generic layouts already in place for popular tasks. Because PointBox ONLY supports products from specific subscription boxes rather than an unlimited pool of resources, I quickly learned that the biggest differentiating features would be how to categorize an item being listed, and how to filter searched results. Based off of my sketches and some feedback from my client, I used Whimsical to create more refined versions of my user flows.</p>
+        <div class="userflow"><img src="./images/UserFlow.png" /></div>
+        <br>
+        <div class="threecombo">
+          <button>user stories</button>
+          <button>sketch flows</button>
+          <button>digital flows</button>
+        </div>
+      </section>
+    </div>
 <!-- Information Framework/Branding-->
-    <section>
+    <section class="brandingSection">
       <h2>Branding</h2>
       <p>The best way to describe PointBox is “spread-the-love!” PointBox is an eco-friendly and community-based company who’s goal is to connect users and give them an opportunity to try and trade products without spending any extra money. Since I had defined the emotion behind my product, I was ready to create a logo that embodied those qualities. Taking my pen to paper, I worked on creating an image that portrays the idea of recycling-love, or “what goes around comes around”.</p>
       <br>
       <p>When picking my color palette, I decided that a “red” theme made sense being that it’s so closely associated with the feeling of love. I went with a red over pink because it’s more of a statement color and it appeals to a variety of personalities. The reasoning behind keeping such a limited color palette is to keep the inventory as the main focus of the app. For the logo’s name and slogan, I wanted to use two different yet complementary fonts. At first, I liked Karla for the header and Montserrat for the subheader because they are all sans-serifs fonts with even spacing and clean lines. However, when placed next to the logo, the text wasn’t bold enough. I then made the decision to change the header to Rubik and the subheader to Rounded Mplus 1c, which shared all the same “clean” qualities as my first option, but with much more weight.</p>
       <div class="styleguide"><img src="./images/StyleGuide.png" /></div>
       <br>
-      <button>style guide</button>
+      <button class="stylebtn">style guide</button>
     </section>
-    <section>
+    <section class="wireframesSection">
       <h2>Wireframes &amp; Usability Tests</h2>
       <p>I began designing and bringing my User Flows to life. Once I felt that I had thoroughly covered all of my High Priority tasks, I used Figma to generate a digital version and performed multiple usability tests.</p>
       <br>
@@ -117,32 +119,34 @@
         <button>test analysis</button>
       </div>
     </section>
-    <section class="backgroundcolored">
-      <h2>Preference Tests</h2>
-      <p>Once I was satisfied with the architecture of the app, it was time to add color! I referenced my style guide and took to Figma once again. While working on my High Fidelity Mockups, I started to notice that there were a few screens I wanted to perform Preference Tests on. The three screens I chose to test were: the final step when purchasing an item, the final step when listing an item, and the header layout while listing an item.</p>
-      <br>
-      <div class="preferenceTesting">
-        <div class="pt1">
-          <div class="testone"><img src="./images/PT1.png" /></div>
-          <h4>Final Step - Listing</h4>
-          <p class="ptdescription">4/5 people preferred the buttons be listed in a vertical layout over a horizontal layout, which I agreed with.</p>
+    <div class="backgroundcolored">
+      <section>
+        <h2>Preference Tests</h2>
+        <p>Once I was satisfied with the architecture of the app, it was time to add color! I referenced my style guide and took to Figma once again. While working on my High Fidelity Mockups, I started to notice that there were a few screens I wanted to perform Preference Tests on. The three screens I chose to test were: the final step when purchasing an item, the final step when listing an item, and the header layout while listing an item.</p>
+        <br>
+        <div class="preferenceTesting">
+          <div class="pt1">
+            <div class="testone"><img src="./images/PT1.png" /></div>
+            <h4>Final Step - Listing</h4>
+            <p class="ptdescription">4/5 people preferred the buttons be listed in a vertical layout over a horizontal layout, which I agreed with.</p>
+          </div>
+          <br>
+          <br>
+          <div class="pt2">
+            <div class="testtwo"><img src="./images/PT2.png" /></div>
+            <h4>Final Step - Posting</h4>
+            <p class="ptdescription">4/5 people preferred “10 Points” in red over black, which I agreed with.</p>
+          </div>
+          <br>
+          <br>
+          <div class="pt3">
+            <div class="testthree"><img src="./images/PT3.png" /></div>
+            <h4>Header Layout - Listing</h4>
+            <p class="ptdescription">3/5 people preferred the double border on the header over the single line beneath it, which I disagreed with. I still felt that the single underline layout has a cleaner presence, and decided to stick with that version.</p>
+          </div>
         </div>
-        <br>
-        <br>
-        <div class="pt2">
-          <div class="testtwo"><img src="./images/PT2.png" /></div>
-          <h4>Final Step - Posting</h4>
-          <p class="ptdescription">4/5 people preferred “10 Points” in red over black, which I agreed with.</p>
-        </div>
-        <br>
-        <br>
-        <div class="pt3">
-          <div class="testthree"><img src="./images/PT3.png" /></div>
-          <h4>Header Layout - Listing</h4>
-          <p class="ptdescription">3/5 people preferred the double border on the header over the single line beneath it, which I disagreed with. I still felt that the single underline layout has a cleaner presence, and decided to stick with that version.</p>
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
 <!-- Visual Design -->
     <section class="HFMsection">
       <h2>High Fidelity Mockups &amp; Usability Test</h2>
@@ -156,7 +160,7 @@
       </div>
     </section>
 <!-- Conclusion -->
-    <section>
+    <section class="conclusionsection">
       <h2>Conclusion</h2>
       <p>PointBox has proven to successfully give users the opportunity to trade their unwanted subscription-based items, free of charge. Through multiple tests, drafts, and iterations, a user interface that our users found intuitive and accessible was developed.</p>
       <p>User Surveys were extremely useful in identifying specifically what my user’s needs were, as was the Competitive Analysis which I relied heavily on when while creating my User Stories and User Flows.</p>
