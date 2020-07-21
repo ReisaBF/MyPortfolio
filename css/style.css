@@ -92,7 +92,7 @@
       justify-content: center;
       margin-right: auto;
       margin-left: 1.5rem;
-      margin-top: 25px;;
+      margin-top: 25px;
       margin-bottom: 10px;
     }
   
@@ -471,32 +471,42 @@
       }
 
     /* Contact Links at bottom */
+      footer {
+        margin-left: auto;
+      }
+
       .linkedin img {
-        width: 80%;
+        width: 40%;
+        margin: 30px;
       }
-  
+
       .gmail img {
-        width: 80%;
+        width: 40%;
+        margin: 30px;
       }
-  
+
       .twitter img {
-        width: 80%;
+        width: 40%;
+        margin: 30px;
       }
   
   /* Specific to Homepage (index) */
   
-    .HeroImage {
-      width: 52%;
-      margin-bottom: 10px;
-      margin-right: 30px;
-    }
-
-    .bio {
-      float: right;
-      width: 46%;
-      margin-top: -20rem;
-      position: relative;
-    }
+    /* My Bio Picture */
+      .HeroImage {
+        width: 52%;
+      }
+    
+      .bio {
+        float: right;
+        width: 46%;
+      }
+    
+      .intro {
+        margin-top: 3%;
+        display: block;
+        align-items: center;
+      }
 
     /* H1 */
     .reisa {
@@ -722,10 +732,19 @@
   /* CSS specific to Bio */
 
     /* My Bio Picture */
-    .SubheroImage img {
+    .SubheroImage {
       width: 52%;
-      margin-bottom: 10px;
-      margin-right: 300px;
+    }
+
+    .bio {
+      float: right;
+      width: 46%;
+    }
+
+    .intro {
+      margin-top: 3%;
+      display: block;
+      align-items: center;
     }
 
     /* Picture Subtitle */
@@ -766,10 +785,28 @@
       .done img {
         width: 5%;
       }
+  /* CSS specific to Contact Form */
+
+    /* Email section */
+    input {
+      width: 50%;
+    }
+
+    /* Message section */
+    textarea {
+      width: 50%;
+    }
 }
 
 @media screen and (min-width: 992px) {
   /* Universal CSS applied to ALL pages */
+
+    /* Top Bar */
+    nav {
+      width: 85%;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
     section {
       padding-bottom: 25px;
@@ -850,4 +887,15 @@
       .ptdescription {
         margin-bottom: -25%;
       }
+  /* CSS specific to Contact Form */
+
+    /* Email section */
+    input {
+      width: 600px;
+    }
+
+    /* Message section */
+    textarea {
+      width: 600px;
+    }
 }
