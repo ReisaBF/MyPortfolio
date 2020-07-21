@@ -492,20 +492,24 @@
   
   /* Specific to Homepage (index) */
   
-    /* My Bio Picture */
-      .HeroImage {
-        width: 52%;
-      }
-    
-      .bio {
-        float: right;
-        width: 46%;
-      }
-    
-      .intro {
+    /* My Index Picture */
+      .HeroImage img {
         margin-top: 3%;
-        display: block;
-        align-items: center;
+      }
+      .HeroImage {
+        width: 50%;
+        display: inline-block;
+      }
+    
+      .bioindex {
+        float: right;
+        width: 40%;
+        display: inline-block;
+        margin-top: 3%;
+      }
+    
+      .introindex {
+        margin-top: 5%;
       }
 
     /* H1 */
@@ -732,19 +736,24 @@
   /* CSS specific to Bio */
 
     /* My Bio Picture */
+    .SubheroImage img {
+      margin-top: 3%;
+    }
+
     .SubheroImage {
-      width: 52%;
+      width: 40%;
+      display: inline-block;
     }
 
     .bio {
       float: right;
-      width: 46%;
+      width: 50%;
+      display: inline-block;
+      margin-top: 3%;
     }
 
     .intro {
-      margin-top: 3%;
-      display: block;
-      align-items: center;
+      margin-top: 5%;
     }
 
     /* Picture Subtitle */
