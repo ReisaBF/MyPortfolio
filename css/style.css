@@ -344,7 +344,7 @@
       font-size: 26px;
       margin-bottom: 10px;
       margin-top: 15px;
-      line-height: 2.5rem;
+      line-height: 2.2rem;
       text-align: center;
     }
 
@@ -353,6 +353,7 @@
       font-weight: 500;
       font-size: 24px;
       margin-bottom: 10px;
+      line-height: 2rem;
       text-align: center;
     }
 
@@ -506,59 +507,57 @@
   /* Specific to Homepage (index) */
   
     /* My Index Picture */
-      .HeroImage img {
-        margin-top: 3%;
-      }
-      .HeroImage {
-        width: 50%;
-        display: inline-block;
-      }
-    
-      .bioindex {
-        float: right;
-        width: 40%;
-        display: inline-block;
-        margin-top: 3%;
-      }
-    
-      .introindex {
-        margin-top: 5%;
-      }
-
-    /* H1 */
-    .reisa {
-      font-size: 36px;
-      padding-bottom: 10px;
-      text-align: left;
+    .HeroImage img {
+      margin-top: 5%;
     }
-
-    .indexconnectbtn {
-      margin-left: -.1rem;
-    }
-
-    .PointBoxIndex img {
-      padding-bottom: 40px;
-      padding-left: 15px;
-    }
-
-    .PointBoxIndex {
+    .HeroImage {
       width: 50%;
       display: inline-block;
     }
 
-    .pbindex {
-      float: left;
-      width:40%;
+    .bioindex {
+      float: right;
+      width: 40%;
       display: inline-block;
+      margin-top: 3%;
     }
 
-    .pbhomepage {
-      padding-top: 25px;
+    .introindex {
+      padding-bottom: 30px;
     }
 
-    .prototypebtn {
-      float: left;
-    }
+  /* H1 */
+  .reisa {
+    font-size: 36px;
+    padding-bottom: 10px;
+    text-align: left;
+  }
+
+  .indexconnectbtn {
+    margin-left: -.1rem;
+  }
+
+  .pbhomepage {
+    padding-top: 75px;
+  }
+
+  .PointBoxIndex img {
+    width:100%;
+    float: right;
+    padding-bottom: 40px;
+  }
+
+  .PointBoxIndex {
+    width: 45%;
+  }
+
+  .pbindex {
+    width: 45%;
+  }
+
+  .prototypebtn {
+    float: left;
+  }
 
   /* CSS specific to PointBox Case Study */
 
@@ -731,7 +730,6 @@
 
     /* Wireframes & Usability Tests Section */
     .LFM img {
-      /* display: block; */
       margin-left: auto;
       margin-right: auto;
       width: 75%;
@@ -739,59 +737,56 @@
 
     /* High Fidelity Mockups & Usability Tests Section */
     .HFM img {
-      /* display: block; */
       margin-left: auto;
       margin-right: auto;
       width: 75%;
     }
 
-  /* CSS specific to Bio */
+/* CSS specific to Bio */
 
     /* My Bio Picture */
     .SubheroImage img {
-      margin-top: 3%;
+      margin-top: 8%;
     }
 
     .SubheroImage {
-      width: 40%;
+      width: 50%;
       display: inline-block;
     }
 
     .bio {
       float: right;
-      width: 50%;
+      width: 45%;
       display: inline-block;
-      margin-top: 3%;
+      margin-top: 2%;
+      padding-left: 5%;
     }
 
     .intro {
-      margin-top: 5%;
-    }
+      display: block;
+      align-items: center;   }
 
     /* Picture Subtitle */
       .how {
         text-align: left;
-        font-size: 29px;
+        font-size: 26px;
       }
-
       .glad {
       text-align: left;
-      font-size: 28px;
+      font-size: 24px;
       padding-bottom: 10px;
       }
-
       .subbio {
       text-align: left;
-      font-size: 22px;
+      font-size: 20px;
+      font-weight: 500;
       }
-
       .biobtn {
         float: left;
       }
-
+      
     .uxjourney {
       display: inline-block;
-      padding-top: 20px;
     }
     
     /* Bio Icons */
@@ -872,6 +867,10 @@
       .twitter img {
         width: 50%;
         margin: 30px;
+      }
+
+      .pbhomepage {
+        padding-top: 50px;
       }
 
   /* CSS specific to PointBox Case Study (project) */
