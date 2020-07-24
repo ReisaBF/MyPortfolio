@@ -591,22 +591,8 @@
     /* Display 3 buttons horizontally */
     .threecombo {
       display: flex;
-      width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .threecombo1 {
-      margin-right: 5px;
-    }
-
-    .threecombo2 {
-      margin-right: 5px;
-      margin-left: 5px;
-    }
-
-    .threecombo3 {
-      margin-left: 5px;
+      width: 107%;
+      margin-left: -1%;
     }
 
     .processSection {
