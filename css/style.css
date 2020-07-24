@@ -184,6 +184,7 @@
     color: #F00102;
     text-align: center;
     padding-top: 5px;
+    font-family: "Montserrat";
   }
 
   /* Description of app */
@@ -285,14 +286,16 @@
   .LFM img {
     width: 100%;
     height: 100%;
+    margin-right: auto;
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
   }
 
   /* Preference Tests Section */
     .preferenceTesting {
       text-align: center;
     }
+    
     .testone img {
       width: 100%;
       height: 100%;
@@ -320,7 +323,7 @@
       width: 100%;
       height: 100%;
       display: block;
-      margin-bottom: 15px;
+      margin-bottom: 5px;
     }
 
 /* CSS specific to Bio page */
@@ -437,8 +440,18 @@
       font-size: 20px;
     }
 
+    /* Top Bar */
+    nav {
+      width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
     section {
       margin-bottom: 35px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 85%;
     }
 
     p {
@@ -523,15 +536,24 @@
       margin-left: -.1rem;
     }
 
-    .pbhomepage {
-      padding-top: 15px;
-    }
-
     .PointBoxIndex img {
-      width:50%;
-      float: right;
       padding-bottom: 40px;
       padding-left: 15px;
+    }
+
+    .PointBoxIndex {
+      width: 50%;
+      display: inline-block;
+    }
+
+    .pbindex {
+      float: left;
+      width:40%;
+      display: inline-block;
+    }
+
+    .pbhomepage {
+      padding-top: 25px;
     }
 
     .prototypebtn {
@@ -570,9 +592,22 @@
     /* Display 3 buttons horizontally */
     .threecombo {
       display: flex;
+      width: 100%;
       margin-left: auto;
       margin-right: auto;
-      width: 100%;
+    }
+
+    .threecombo1 {
+      margin-right: 5px;
+    }
+
+    .threecombo2 {
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+
+    .threecombo3 {
+      margin-left: 5px;
     }
 
     .processSection {
@@ -686,48 +721,25 @@
     width: 75%;
     }
 
-    /* Wireframes & Usability Tests Section */
-    .LFM img {
+
+    .preferenceTesting {
       display: block;
       margin-left: auto;
       margin-right: auto;
       width: 75%;
     }
 
-    /* Preference Tests Section */
-      .preferenceTesting {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        align-items: baseline;
-      }
-
-      .pt1 {
-        width: 30%;
-        padding-left: 3%;
-        padding-right: 3%;
-      }
-
-      .pt2 {
-        width: 30%;
-        padding-left: 3%;
-        padding-right: 3%;
-      }
-
-      .pt3 {
-        width: 30%;
-        padding-left: 3%;
-        padding-right: 3%;
-      }
-
-      .ptdescription {
-        margin-bottom: -10%;
-      }
+    /* Wireframes & Usability Tests Section */
+    .LFM img {
+      /* display: block; */
+      margin-left: auto;
+      margin-right: auto;
+      width: 75%;
+    }
 
     /* High Fidelity Mockups & Usability Tests Section */
     .HFM img {
-      display: block;
+      /* display: block; */
       margin-left: auto;
       margin-right: auto;
       width: 75%;
@@ -759,7 +771,7 @@
     /* Picture Subtitle */
       .how {
         text-align: left;
-        font-size: 30px;
+        font-size: 29px;
       }
 
       .glad {
@@ -817,11 +829,17 @@
       margin-right: auto;
     }
 
+    .logo {
+      width: 3.5rem;
+      height: 3.5rem;
+      margin-left: 2%;
+    }
+
     section {
       padding-bottom: 25px;
       margin-left: auto;
       margin-right: auto;
-      width: 80%;
+      width: 70%;
     }
 
     hr {
@@ -836,6 +854,11 @@
     }
 
     /* Contact Links at bottom */
+
+      footer {
+        margin-top: -50px;
+      }
+
       .linkedin img {
         width: 50%;
         margin: 30px;
@@ -866,12 +889,6 @@
     }
 
     /* Display 3 buttons horizontally */
-    .threecombo {
-      display: flex;
-      margin-left: auto;
-      margin-right: auto;
-      width: 75%;
-    }
 
     /* Branding Section */
       .brandingSection {
@@ -883,6 +900,37 @@
         margin-bottom: 5px;
       }
 
+    /* Preference Tests Section */
+      .preferenceTesting {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-items: baseline;
+      }
+
+      .pt1 {
+        width: 30%;
+        padding-left: 3%;
+        padding-right: 3%;
+      }
+
+      .pt2 {
+        width: 30%;
+        padding-left: 3%;
+        padding-right: 3%;
+      }
+
+      .pt3 {
+        width: 30%;
+        padding-left: 3%;
+        padding-right: 3%;
+      }
+
+      .ptdescription {
+        margin-bottom: -15%;
+      }
+
     /* Wireframes & Usability Tests Section */
     .wireframesSection {
       padding-top: 20px;
@@ -892,10 +940,6 @@
       margin-top: 5%;
     }
 
-    /* Preference Test Section */
-      .ptdescription {
-        margin-bottom: -25%;
-      }
   /* CSS specific to Contact Form */
 
     /* Email section */
