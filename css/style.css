@@ -36,9 +36,8 @@
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 10px;
     display: flex;
-    padding: .5rem 1rem;
+    padding: 5px;
   }
 
   h3 {
@@ -92,7 +91,6 @@
       justify-content: center;
       margin-right: auto;
       margin-left: 1.5rem;
-      margin-top: 25px;
       margin-bottom: 10px;
     }
   
@@ -289,6 +287,10 @@
     margin-right: auto;
     display: block;
     margin-bottom: 5px;
+  }
+
+  form {
+    margin-top: -20px;
   }
 
   /* Preference Tests Section */
