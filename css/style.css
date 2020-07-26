@@ -168,6 +168,11 @@
     line-height: 1.3rem;
   }
 
+    /* Display 3 buttons horizontally */
+    .threecombo {
+      margin: -10px;
+    }
+
   /* Background of Specific Sections */
   .backgroundcolored {
     margin: 0 -9999rem;
@@ -294,6 +299,7 @@
 
   form {
     margin-top: -20px;
+    margin-bottom: 10px;
   }
 
   /* Preference Tests Section */
@@ -588,7 +594,7 @@
 
     .PBHeader img {
       padding-bottom: 25px;
-      padding-top: 10px;
+      /* padding-top: 10px; */
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -639,8 +645,13 @@
       }
 
     /* User Research Section */
+      .userpersonassection {
+        margin-top: 10px;
+      }
+
       .userresearchSection {
         margin-top: -10%;
+        margin-bottom: -.05%;
       }
 
       .surveystatsA {
@@ -681,6 +692,7 @@
       }
 
     /* User Personas Tests Section */
+      
       .userpersonas {
         padding-bottom: 25px;
         display: block;
@@ -697,6 +709,11 @@
         padding-top: 1rem;
         margin-bottom: -3rem;
       }
+
+    /* User Stories & Flows Section */
+    .userflow img {
+      margin-bottom: 25px;
+    }
 
     /* Branding Section */
     .styleguide img {
@@ -728,17 +745,20 @@
       width: 75%;
     }
 
-    /* Wireframes & Usability Tests Section */
-    .LFM img {
-      margin-left: auto;
-      margin-right: auto;
-      width: 75%;
-    }
+      .LFM img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25px;
+        padding-top: 15px;
+        width: 75%;
+      }
 
     /* High Fidelity Mockups & Usability Tests Section */
     .HFM img {
       margin-left: auto;
       margin-right: auto;
+      margin-bottom: 25px;
+      padding-top: 15px;
       width: 75%;
     }
 
@@ -897,7 +917,6 @@
 
       .stylebtn {
         margin-top: 10px;
-        margin-bottom: 5px;
       }
 
     /* Preference Tests Section */
@@ -930,15 +949,6 @@
       .ptdescription {
         margin-bottom: -15%;
       }
-
-    /* Wireframes & Usability Tests Section */
-    .wireframesSection {
-      padding-top: 20px;
-    }
-
-    .conclusionsection {
-      margin-top: 5%;
-    }
 
   /* CSS specific to Contact Form */
 
