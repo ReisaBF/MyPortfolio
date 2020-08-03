@@ -38,8 +38,8 @@
     margin-left: auto;
     margin-bottom: -5%;
     margin-top:3%;
-    display: flex;
-    padding: 15px;
+    padding: 10px;
+    width: 100%;
   }
 
   h3 {
@@ -457,7 +457,7 @@
   }
 
   .blurb {
-    width: 80%;
+    width: 83%;
     font-family: "Montserrat";
     font-weight: 500;
     font-size: 14px;
@@ -467,7 +467,7 @@
   }
 
   .blurbtitle {
-    width: 80%;
+    width: 83%;
     font-family: "Montserrat";
     font-weight: 600;
     font-size: 25px;
@@ -497,7 +497,8 @@
     .email {
       padding-bottom: 15px;
       text-align: left;
-      margin-left: 10%;
+      width: 83%;
+      margin: 0 auto;
     }
 
     input {
@@ -510,10 +511,10 @@
 
   /* Message section */
     .message {
-      padding-top: 15px;
       padding-bottom: 15px;
       text-align: left;
-      margin-left: 10%;
+      width: 83%;
+      margin: 0 auto;
     }
 
     textarea {
@@ -526,6 +527,9 @@
 
     .contactbtn {
       margin-bottom: 10px;
+      width: 83%;
+      margin-right: auto;
+      margin-left: auto;
     }
 
 
@@ -962,12 +966,16 @@
 
   .contactbtn {
     margin-bottom: -10%;
-    margin-right: 1%;
+    width: 72%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   /* Email section */
     .email {
-      margin-left: 15%;
+      text-align: left;
+      width: 72%;
+      margin: 0 auto;
     }
 
     input {
@@ -976,7 +984,9 @@
 
   /* Message section */
     .message {
-      margin-left: 15%;
+      text-align: left;
+      width: 72%;
+      margin: 0 auto;
     }
 
     textarea {
@@ -1142,19 +1152,18 @@
   }
 
   .blurb {
-    width: 650px;
+    width: 625px;
   }
 
   .blurbtitle {
-    width: 650px;
+    width: 625px;
     font-size: 36px;
   }
 
   /* Email section */
     .email {
-      width: 600px;
-      margin-left: auto;
-      margin-right: auto;
+      width: 610px;
+      margin: 0 auto;
     }
 
     input {
@@ -1163,12 +1172,17 @@
 
   /* Message section */
     .message {
-      width: 600px;
-      margin-left: auto;
-      margin-right: auto;
+      width: 610px;
+      margin: 0 auto;
     }
 
     textarea {
       width: 600px;
+    }
+
+    .contactbtn {
+      width: 625px;
+      margin-right: auto;
+      margin-left: auto;
     }
 }
