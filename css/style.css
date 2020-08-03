@@ -322,7 +322,6 @@ h4 {
 }
 
 form {
-  margin-top: -20px;
   margin-bottom: 10px;
 }
 
@@ -359,6 +358,24 @@ form {
     /* Conclusion Section */
     .conclusionsection {
       margin-bottom: 30px;
+    }
+    
+/* Back To Top Link */
+    .backtotop {
+      font-size: 1.5rem;
+      margin-bottom: 3rem;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-right: auto;
+    }
+  
+    .backtotop a {
+      font-variant: small-caps;
+      text-decoration: none;
+      color: #2F5A71;
+      font-family: "Montserrat";
+      font-weight: bolder;
     }
 
 /* CSS specific to Bio page */
@@ -435,17 +452,36 @@ form {
 
 /* CSS specific to Contact Form */
 
+.blurb {
+  width: 80%;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blurbtitle {
+  width: 80%;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 25px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 form {
   width: 100%;
   text-transform: uppercase;
   text-align: center;
   display: inline-block;
   margin-left: -1.5rem;
-  margin-top: 10px;
   font-family: "Montserrat";
   font-weight: 600;
   font-size: 14px;
-  text-align: center;
   padding: 20px;
 }
 
@@ -456,6 +492,7 @@ label {
 
 /* Email section */
   .email {
+    margin-top: 10px;
     padding-bottom: 15px;
     text-align: left;
     margin-left: 10%;
@@ -827,6 +864,11 @@ label {
       padding-top: 25px;
     }
 
+    /* Back To Top Link */
+    .backtotop {
+      margin-bottom: 1rem;
+    }
+
 /* CSS specific to Bio */
 
   /* My Bio Picture */
@@ -895,6 +937,20 @@ label {
       width: 5%;
     }
 /* CSS specific to Contact Form */
+
+  .blurb {
+    width: 65%;
+    font-size: 26px;
+    line-height: 1.4;
+    font-weight: 400;
+  }
+
+  .blurbtitle {
+    width: 65%;
+    font-weight: 600;
+    font-size: 32px;
+  }
+
   label {
     font-size: 26px;
   }
@@ -1068,6 +1124,15 @@ label {
 /* CSS specific to Contact Form */
 
   /* Email section */
+
+  .blurb {
+    width: 650px;
+  }
+
+  .blurbtitle {
+    width: 650px;
+    font-size: 36px;
+  }
 
   .email {
     width: 600px;
