@@ -182,6 +182,7 @@
 
   form {
     margin-bottom: 10px;
+    margin: 0 auto;
   }
 
   /* Display 3 buttons horizontally */
@@ -433,7 +434,6 @@
       height: 9%;
       float: left;
       padding-right: 15px;
-      margin-top: 1%;
     }
 
     .load img {
@@ -441,7 +441,6 @@
       height: 10%;
       float: left;
       padding-right: 15px;
-      margin-top: 1%;
     }
 
     .done img {
@@ -449,7 +448,6 @@
       height: 10%;
       float: left;
       padding-right: 15px;
-      margin-top: 1%;
     }
 
 /* CSS specific to Contact Form */
@@ -600,24 +598,29 @@
 
 /* Specific to Homepage (index) */
 
+  .verticalalignment {
+    display: flex;
+    flex-direction: column;
+  }
+
   /* My Index Picture */
     .HeroImage img {
       margin-top: 5%;
     }
+
     .HeroImage {
-      width: 50%;
+      width: 60%;
+      height: 60%;
       display: inline-block;
+      margin-right: 25px;
     }
 
   .bioindex {
     float: right;
-    width: 40%;
-    display: inline-block;
-    margin-top: 3%;
-  }
-
-  .introindex {
-    margin-bottom: 85px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
   }
 
   /* H1 */
@@ -630,15 +633,21 @@
   .indexconnectbtn {
     float: left;
     margin-bottom: 10px;
-  }
-
-  .casestudybtn {
-    float: left;
-    margin-left: 3%;
+    margin-left: .5rem;
   }
 
   .introindex {
-    padding-bottom: 185px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+  .pbhomepage {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: space-evenly;
   }
 
   .PointBoxIndex img {
@@ -652,12 +661,13 @@
   }
 
   .pbindex {
-    width: 45%;
+    max-width: 45%;
+    float: left;
   }
 
-  .prototypebtn {
+  .casestudybtn {
     float: left;
-    margin-left: 3%;
+    margin-left: .5rem;
   }
 
 /* CSS specific to PointBox Case Study */
@@ -866,7 +876,7 @@
 
   /* My Bio Picture */
     .SubheroImage img {
-      margin-top: 8%;
+      margin-top: 15px;
     }
 
     .SubheroImage {
@@ -876,15 +886,17 @@
 
   .bio {
     float: right;
-    width: 45%;
+    width: 40%;
     display: inline-block;
-    margin-top: 2%;
     padding-left: 5%;
   }
 
   .intro {
-    display: block;
-    align-items: center;   }
+    display: flex;
+    flex-direction: row;  
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
 
   /* Picture Subtitle */
     .how {
@@ -908,26 +920,25 @@
 
     .biobtn {
       float: left;
-      margin-left: 3%;
+      margin-left: 1%;
       margin-top: -20px;
     }
     
   .uxjourney {
-    padding-top: 13px;
     margin-bottom: -20px;
   }
   
   /* Bio Icons */
     .search img {
-      width: 5%;
+      max-width: 50px;
     }
 
     .load img {
-      width: 5%;
+      max-width: 50px;
     }
 
     .done img {
-      width: 5%;
+      max-width: 50px;
     }
 
 /* CSS specific to Contact Form */
@@ -1121,7 +1132,6 @@
 /* CSS specific to Bio */
   
   .uxjourney {
-    margin-top: -13px;
     margin-bottom: -50px;
   }
 
