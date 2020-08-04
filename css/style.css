@@ -31,6 +31,7 @@
     font-size: 15px;
     color: #FFFFFF;
     background-color: #2F5A71;
+    border: none;
     border-radius: 5px;
     text-transform: uppercase;
     text-align: center;
@@ -192,6 +193,8 @@
 
     .threecombobtn {
       margin-top: -5%;
+      min-width: 85%;
+      max-width: 88%;
     }
 
   /* Background of Specific Sections */
@@ -231,8 +234,8 @@
     padding-top: 25px;
   }
 
-  .solutionsection {
-    padding-bottom: 10px;
+  .problemsolutionsection {
+    padding-bottom: 20px;
   }
 
   /* Competitive Analysis Section */
@@ -282,6 +285,29 @@
       width: 90%;
       display: block;
       margin-bottom: 15px;
+    }
+
+    .stat1A {
+      display: flex;
+      align-items: baseline;
+    }
+
+    .stat2A {
+      display: flex;
+      align-items: baseline;
+    }
+
+    .stat3A {
+      display: flex;
+      align-items: baseline;
+    }
+
+    .percent {
+      padding-right: 10px;
+      padding-top: 10px;
+      font-family: "Montserrat";
+      font-size: 20px;
+      font-weight: bolder;
     }
 
   /* User Personas Section */
@@ -507,6 +533,7 @@
       border-color: #2F5A71;
       border-width: .2rem;
       margin-bottom: 25px;
+      border-style: solid;
     }
 
   /* Message section */
@@ -523,6 +550,7 @@
       border-color: #2F5A71;
       border-width: .2rem;
       margin-bottom: 25px;
+      border-style: solid;
     }
 
     .contactbtn {
@@ -705,10 +733,16 @@
   .whatPBIs {
     font-size: 20px;
     margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
   }
 
   .pbprototypebtn {
     margin-top: -2%;
+    margin-right: auto;
+    margin-left: 1.5rem;
+    width: 70%;
   }
 
   /* Display 3 buttons horizontally */
@@ -762,25 +796,34 @@
       /* margin-bottom: -.05%; */
     }
 
-    .surveystatsA {
-      display: flex;
-      padding-bottom: 15px;
-      align-items: baseline;
-    }
-
     .stat1A {
-      width: 150%;
-      padding-left: 15px;
+      flex-direction: column;
+      width: 50%;
+      padding-right: 10%;
     }
 
     .stat2A {
-      width: 150%;
-      padding-right: 25px;
-      padding-left: 15px;
+      flex-direction: column;
+      width: 50%;
+      padding-right: 10%;
     }
 
     .stat3A {
-      width: 150%;
+      flex-direction: column;
+      width: 50%;
+    }
+
+    .percent {
+      padding-bottom: 10px;
+      font-size: 36px;
+    }
+
+    .surveystatsA {
+      display: flex;
+      justify-content: stretch;    
+      max-width: 115%;
+      margin: 0 auto;
+      padding-bottom: 10px;
     }
 
     .surveystatsB {
@@ -1022,8 +1065,23 @@
     width: 85%;
   }
 
+  .problemsolutionsection {
+    margin-bottom: -20px;
+  }
+
+  .problemsolutionsection {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+  }
+
+  .problemsection {
+    max-width: 50%;
+    margin-right: 75px;
+  }
+
   .solutionsection {
-    margin-bottom: -10px;
+    max-width: 50%;
   }
 
   p {
@@ -1056,12 +1114,22 @@
 /* CSS specific to PointBox Case Study (project) */
 
   .PBHeader img {
+    max-width: 650px;
     margin-top: 25px;
   }
 
   .pointboxtitle {
     padding-top: 15px;
     font-size: 44px;
+  }
+
+  /* Description of app */
+  .whatPBIs {
+    max-width: 650px;
+  }
+
+  .pbprototypebtn {
+    max-width: 650px;
   }
 
   button {
