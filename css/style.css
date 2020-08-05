@@ -316,7 +316,7 @@
 
     .stat2B {
       font-weight: 800;
-      margin-left: rem;
+      margin-left: -2rem;
     }
 
     .piecharts img {
@@ -908,7 +908,7 @@
     }
 
     .stat2B {
-      margin-left: -1rem;
+      margin-left: -3rem;
     }
 
   /* User Personas Tests Section */
