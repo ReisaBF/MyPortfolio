@@ -106,7 +106,7 @@
     display: flex;
     justify-content: center;
     margin-right: auto;
-    margin-left: 1.5rem;
+    margin-left: 2rem;
     margin-bottom: 10px;
   }
 
@@ -150,18 +150,6 @@
 
   .indexconnectbtn {
     margin-top: -5%;
-  }
-
-  button.indexconnectbtn {
-    max-width: 300px;
-  }
-
-  .casestudybtn {
-    margin-top: -5%;
-  }
-
-  button.casestudybtn {
-    max-width: 300px;
   }
 
   .PointBoxIndex {
@@ -438,7 +426,6 @@
       width: 100%;
       display: flex;
       justify-content: center;
-      margin-right: auto;
     }
   
     .backtotop a {
@@ -490,10 +477,6 @@
 
     .biobtn {
       margin-top: -5%;
-    }
-
-    button.biobtn {
-      max-width: 300px;
     }
 
   .uxjourney {
@@ -602,7 +585,6 @@
 
     .contactbtn {
       width: 83%;
-      max-width: 300px;
       margin-right: auto;
       margin-left: auto;
       margin-bottom: 10px;
@@ -721,6 +703,18 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-evenly;
+  }
+
+  button.indexconnectbtn {
+    max-width: 300px;
+  }
+
+  .casestudybtn {
+    margin-top: -5%;
+  }
+
+  button.casestudybtn {
+    max-width: 300px;
   }
 
   .pbhomepage {
@@ -984,6 +978,7 @@
   /* Back To Top Link */
   .backtotop {
     margin-bottom: 1rem;
+    margin-left: -1.5rem;
   }
 
 /* CSS specific to Bio */
@@ -1036,6 +1031,7 @@
       float: left;
       margin-left: 3%;
       margin-top: -20px;
+      max-width: 300px;
     }
     
   .uxjourney {
@@ -1080,6 +1076,7 @@
     margin-top: 10px;
     margin-right: auto;
     margin-left: auto;
+    max-width: 300px;
   }
 
   /* Email section */
