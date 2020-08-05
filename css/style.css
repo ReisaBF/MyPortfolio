@@ -206,11 +206,28 @@
     margin: 0 auto;
   }
 
+  .quote {
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: .5rem;
+  }
+
   .callout {
-    font-size: 60px;
-    line-height: rem;
-    width: 130%;
-    margin-left: -100px;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .parenthasis {
+    font-size: 100px;
+    font-weight: lighter;
+    margin-top: -2%;
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   /* Display 3 buttons horizontally */
@@ -774,6 +791,23 @@
     max-width: 300px;
   }
 
+  .callout {
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 1.2;
+    align-content: center;
+  }
+
+  .parenthasis {
+    margin-top: -4%;
+    font-size: 150px;
+  }
+
+  .quote {
+    margin-top: 5%;
+    margin-bottom: 3%;
+  }
+
   /* Display 3 buttons horizontally */
   .threecombo {
     display: flex;
@@ -1167,6 +1201,15 @@
   h3 {
     font-size: 38px;
     margin-bottom: 20px;
+  }
+
+  .quote {
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .callout {
+    font-size: 35px;
   }
 
   .swotsection {
