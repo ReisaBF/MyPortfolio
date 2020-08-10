@@ -286,16 +286,15 @@
     }
 
     .swot1 img {
-      width: 6rem;
+      width: 90%;
     }
 
     .swot2 img {
-      width: 10rem;
-      padding-right: 6px;
+      width: 90%;
     }
 
     .swot3 img {
-      width: 7rem;
+      width: 90%;
     }
 
 
@@ -862,40 +861,15 @@
   }
 
   /* Competitive Analysis Section */
-    .swotsection {
-      display: flex;
-      padding-bottom: 20px;
-    }
-
-    .swottitle {
-      display: inline-block;
-      padding: 0 0 5% 0;
-    }
-  
     .swot {
-      float: right;
-      display: inline-block;
-      text-align: center;
-      padding-left: 15px;
-      margin-top: auto;
-      margin-bottom: auto;
-    }
-
-    .swot3 {
-      padding-top: 10px;
-    }
-
-    .CompetitiveAnalysisTitle {
-      width: 100%;
+      max-width: 90%;
+      justify-content: space-evenly;
+      margin: 0 auto;
     }
 
   /* User Research Section */
     .userpersonassection {
       margin-top: 10px;
-    }
-
-    .userresearchSection {
-      margin-top: -10%;
     }
 
     .stat1A {
@@ -1278,17 +1252,8 @@
     font-size: 35px;
   }
 
-  .swotsection {
-    margin-bottom: 7%;
-  }
-
   .CompetitiveAnalysisTitle {
     margin-top: -25px;
-  }
-
-  /* User Research Section */
-  .userresearchSection {
-    margin-bottom: -1%;
   }
 
   .stylebtn {
