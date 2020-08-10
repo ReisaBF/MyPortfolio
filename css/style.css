@@ -1136,6 +1136,7 @@
   /* Back To Top Link */
   .backtotop {
     padding-top: 10px;
+    margin-bottom: 5px;
     max-width: 50%;
   }
 
@@ -1450,7 +1451,6 @@
 
   /* Back To Top Link */
   .backtotop {
-    margin-bottom: -1px;
     margin-top: 10px;
   }
 
