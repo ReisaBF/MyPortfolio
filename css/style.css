@@ -1136,7 +1136,7 @@
   /* Back To Top Link */
   .backtotop {
     padding-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     max-width: 50%;
   }
 
@@ -1447,11 +1447,6 @@
   /* Conclusion Section */
   .conclusionsection {
     margin-bottom: -20px;
-  }
-
-  /* Back To Top Link */
-  .backtotop {
-    margin-top: 10px;
   }
 
 /* CSS specific to Bio */
