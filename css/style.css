@@ -376,13 +376,13 @@
     .personagf {
       text-align: left;
       padding: 10px;
-      margin-top: -15px;
       margin-left: 10px;
+      margin-bottom: 10px;
     }
 
     .personatitle {
       font-weight: 700;
-      font-size: 35px;
+      font-size: 20px;
       text-align: center;
       color: #FFFFFF;
       justify-content: center;
@@ -402,7 +402,14 @@
       padding: 10px;
     }
 
+    .personatext {
+      font-size: 18px;
+      margin: -.1%;
+      line-height: 1.5;
+    }
+
     .personaquote {
+      font-size: 18px;
       font-weight: 800;
       color: #FFFFFF;
       border-style: solid;
@@ -414,11 +421,24 @@
 
     .personacallout {
       font-weight: 600;
-      font-size: 25px;
+      font-size: 20px;
       line-height: 1.2;
       text-align: center;
       margin-top: 10px;
       margin-bottom: 10px;
+      margin-top: -.1%;
+    }
+
+    .goalbullets {
+      color: #F00102;
+      font-size: 18px;
+      margin-top: -5px;
+    }
+
+    .frustbullets {
+      color: #F00102;
+      font-size: 18px;
+      margin-top: 20px;
     }
 
   /* User Stories & Flows Section */
@@ -983,6 +1003,7 @@
 
   /* User Personas Tests Section */  
   .userpersonas {
+    padding-top: 20px;
     padding-bottom: 25px;
     width: 65%;
     margin: 0 auto;
@@ -1344,14 +1365,23 @@
     }
 
     .personatitle {
-      min-height: 85px;
+      min-height: 25px;
       display: flex;
       justify-content: center;
       flex-direction: column;
+      font-size: 24px;
+    }
+
+    .personatext {
+      font-size: 20px;
+    }
+
+    .personacallout {
+      font-size: 24px;
     }
 
     .personastats {
-      min-height: 200px;
+      min-height: 115px;
       display: flex;
       justify-content: center;
       flex-direction: column;
@@ -1359,19 +1389,30 @@
     }
 
     .personaquote {
-      min-height: 145px;
+      min-height: 100px;
       display: flex;
       justify-content: center;
       flex-direction: column;
       align-content: stretch;
+      font-size: 20px;
     }
 
     .personagf {
-      min-height: 550px;
+      min-height: 325px;
       display: flex;
       justify-content: center;
       flex-direction: column;
       align-content: stretch;
+      margin-top: -7%;
+      margin-bottom: -7px;
+    }
+
+    .goalbullets {
+      font-size: 20px;
+    }
+
+    .frustbullets {
+      font-size: 20px;
     }
 
   /* Conclusion Section */
