@@ -99,6 +99,7 @@
 
   a:hover {
     color: #A2B2BB;
+    text-decoration: underline #2F5A71;
   }
 
 /* Contact Links at bottom */
@@ -559,6 +560,11 @@
       color: #2F5A71;
       font-family: "Montserrat";
       font-weight: bolder;
+    }
+
+    .backtotop a:hover {
+      color: #A2B2BB;
+      text-decoration: underline #2F5A71;
     }
 
 /* CSS specific to Bio page */
@@ -1268,7 +1274,7 @@
     .logo {
       width: 3.5rem;
       height: 3.5rem;
-      margin-left: 2%;
+      margin-left: 1%;
     }
 
   section {
