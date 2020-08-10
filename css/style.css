@@ -184,6 +184,10 @@
     border: 1px solid #2F5A71;
   }
 
+  .problemsolutionsection {
+    padding-bottom: 5px;
+  }
+
   h4 {
     font-family: "Montserrat";
     font-weight: 600;
@@ -273,7 +277,7 @@
 
   /* Process Section */
   .processSection {
-    margin-top: 10px;
+    margin-top: 25px;
   }
 
   /* Competitive Analysis Section */
@@ -511,17 +515,21 @@
     }
 
   /* High Fidelity Mockups & Usability Tests Section */
-  .HFM img {
-    width: 100%;
-    height: 100%;
-    display: block;
-    margin-bottom: 5px;
-  }
+    .HFM img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .HFMsection {
+      padding-bottom: 10px;
+    }
 
   /* Conclusion Section */
   .conclusionsection {
     margin-bottom: 30px;
-    padding-top: 10px;
+    padding-top: 20px;
   }
     
   /* Back To Top Link */
@@ -943,7 +951,8 @@
   }
 
   .processSection {
-    margin-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 5px;
   }
 
   /* Competitive Analysis Section */
@@ -951,12 +960,13 @@
       max-width: 90%;
       justify-content: space-evenly;
       margin: 0 auto;
-      margin-top: 20px;
+      padding-top: 15px;
+      padding-bottom: 15px;
     }
 
   /* User Research Section */
     .userpersonassection {
-      margin-top: 10px;
+      padding-top: 20px;
     }
 
     .stat1A {
@@ -1017,6 +1027,11 @@
 
   .userstories {
     margin-bottom: 25px;
+  }
+
+  .wireframesSection {
+    padding-top: 35px;
+    padding-bottom: 20px;
   }
 
   /* Branding Section */
@@ -1094,8 +1109,26 @@
     }
     
     .HFMsection {
-      padding-top: 10px;
+      padding-top: 25px;
+      padding-bottom: 50px;
     }
+
+    .conclusionsection {
+      padding-top: 50px;
+    }
+
+    /* Preference Testing Section */
+      .pt1 {
+        padding: 5px;
+      }
+
+      .pt2 {
+        padding: 5px;
+      }
+
+      .pt3 {
+        padding: 5px;
+      }
 
   /* Back To Top Link */
   .backtotop {
@@ -1253,9 +1286,9 @@
   }
 
   .problemsolutionsection {
-    margin-bottom: -30px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: -5px;
   }
 
   .problemsection {
@@ -1316,7 +1349,7 @@
   h2 {
     font-size: 40px;
     padding-bottom: 15px;
-    padding-top: 15px;
+    padding-top: 20px;
   }
 
   h3 {
@@ -1331,11 +1364,6 @@
 
   .callout {
     font-size: 35px;
-  }
-
-  /* Competitive Analysis Section */
-  .swot {
-    margin-top: 30px;
   }
 
   .CompetitiveAnalysisTitle {
@@ -1415,10 +1443,22 @@
       font-size: 20px;
     }
 
+    /* Preference Testing Section */
+      .pt1 {
+        padding: 10px;
+      }
+
+      .pt2 {
+        padding: 10px;
+      }
+
+      .pt3 {
+        padding: 10px;
+      }
+
   /* Conclusion Section */
   .conclusionsection {
     margin-bottom: -20px;
-    padding-top: 20px;
   }
 
   /* Back To Top Link */
