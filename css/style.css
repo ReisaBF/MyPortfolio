@@ -103,24 +103,24 @@
 
 /* Contact Links at bottom */
   footer {
-    width: 100%;
+    width: 40%;
     display: flex;
-    justify-content: center;
-    margin-right: auto;
-    margin-left: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
     margin-bottom: 10px;
   }
 
   .linkedin img {
-    width: 50%;
+    width: 40px;
   }
 
   .mail img {
-    width: 50%;
+    width: 45px;
   }
 
   .twitter img {
-    width: 50%;
+    width: 40px;
   }
 
 /* Specific to Homepage (index) */
@@ -354,8 +354,8 @@
 
   /* User Personas Section */
     .userpersonas img {
-      width: 100%;
-      height: 100%;
+      width: 80%;
+      height: 80%;
     }
 
     .persona1 {
@@ -513,6 +513,18 @@
       display: block;
       margin-bottom: 10px;
     }
+  
+    .pt1 {
+      padding: 5px;
+    }
+  
+    .pt2 {
+      padding: 5px;
+    }
+  
+    .pt3 {
+      padding: 5px;
+    }
 
   /* High Fidelity Mockups & Usability Tests Section */
     .HFM img {
@@ -523,7 +535,7 @@
     }
 
     .HFMsection {
-      padding-bottom: 10px;
+      padding-bottom: 15px;
     }
 
   /* Conclusion Section */
@@ -774,22 +786,20 @@
 
   /* Contact Links at bottom */
     footer {
-      margin-left: auto;
+      max-width: 400px;
+      padding-top: 25px;
     }
 
     .linkedin img {
-      width: 40%;
-      margin: 30px;
+      width: 60px;
     }
 
     .mail img {
-      width: 40%;
-      margin: 30px;
+      width: 68px;
     }
 
     .twitter img {
-      width: 40%;
-      margin: 30px;
+      width: 60px;
     }
 
 /* Specific to Homepage (index) */
@@ -1117,23 +1127,10 @@
       padding-top: 35px;
     }
 
-    /* Preference Testing Section */
-      .pt1 {
-        padding: 5px;
-      }
-
-      .pt2 {
-        padding: 5px;
-      }
-
-      .pt3 {
-        padding: 5px;
-      }
-
   /* Back To Top Link */
   .backtotop {
-    margin-bottom: 1rem;
-    margin-left: -1.5rem;
+    padding-bottom: 10px;
+    max-width: 50%;
   }
 
 /* CSS specific to Bio */
@@ -1285,6 +1282,23 @@
     width: 85%;
   }
 
+  /* Contact Links at bottom */
+  footer {
+    padding-top: 35px;
+  }
+
+  .linkedin img {
+    width: 75px;
+  }
+
+  .mail img {
+    width: 85px;
+  }
+
+  .twitter img {
+    width: 75px;
+  }
+
   .problemsolutionsection {
     display: flex;
     justify-content: space-between;
@@ -1304,26 +1318,6 @@
     font-size: 25px;
     line-height: 1.8rem;
   }
-
-  /* Contact Links at bottom */
-    footer {
-      margin-left: auto;
-    }
-
-    .linkedin img {
-      width: 40%;
-      margin: 30px;
-    }
-
-    .mail img {
-      width: 40%;
-      margin: 30px;
-    }
-
-    .twitter img {
-      width: 40%;
-      margin: 30px;
-    }
 
 /* CSS specific to PointBox Case Study (project) */
 
