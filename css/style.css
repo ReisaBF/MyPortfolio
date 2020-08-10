@@ -401,7 +401,7 @@
       text-decoration: underline;
       font-size: 18px;
       font-weight: 700;
-      margin-top: 20px;
+      margin-top: 25px;
     }
     
     .testone img {
@@ -1247,18 +1247,6 @@
   .pointboxtitle {
     padding-top: 15px;
     font-size: 44px;
-  }
-
-  .pttitle1 {
-    text-decoration: underline;
-    font-size: 30px;
-    margin-top: 25px;
-  }
-
-  .pttitle2 {
-    text-decoration: underline;
-    font-size: 30px;
-    margin-top: 35px;
   }
 
   /* Description of app */
