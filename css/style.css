@@ -389,10 +389,15 @@
   /* Preference Tests Section */
     .preferenceTesting {
       text-align: center;
-      margin-top: 10px;
     }
 
-    .pttitle {
+    .pttitle1 {
+      text-decoration: underline;
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .pttitle2 {
       text-decoration: underline;
       font-size: 18px;
       font-weight: 700;
@@ -985,7 +990,6 @@
     margin-left: auto;
     margin-right: auto;
     width: 75%;
-    margin-top: 20px;
   }
 
   .LFM img {
@@ -1001,10 +1005,16 @@
       font-size: 23px;
     }
 
-    .pttitle {
+    .pttitle1 {
       text-decoration: underline;
       font-size: 30px;
       margin-top: 30px;
+    }
+
+    .pttitle2 {
+      text-decoration: underline;
+      font-size: 30px;
+      margin-top: 50px;
     }
 
     .testone img {
@@ -1239,9 +1249,16 @@
     font-size: 44px;
   }
 
-    .pttitle {
+  .pttitle1 {
     text-decoration: underline;
     font-size: 30px;
+    margin-top: 25px;
+  }
+
+  .pttitle2 {
+    text-decoration: underline;
+    font-size: 30px;
+    margin-top: 35px;
   }
 
   /* Description of app */
