@@ -187,7 +187,7 @@
   h4 {
     font-family: "Montserrat";
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 10px;
     margin-bottom: 5px;
     line-height: 1.3rem;
@@ -389,32 +389,34 @@
   /* Preference Tests Section */
     .preferenceTesting {
       text-align: center;
+      margin-top: 10px;
     }
 
     .pttitle {
       text-decoration: underline;
-      font-size: ;
+      font-size: 18px;
+      font-weight: 700;
     }
     
     .testone img {
       width: 100%;
       height: 100%;
       display: block;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
 
     .testtwo img {
       width: 100%;
       height: 100%;
       display: block;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
 
     .testthree img {
       width: 100%;
       height: 100%;
       display: block;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
 
   /* High Fidelity Mockups & Usability Tests Section */
@@ -783,15 +785,7 @@
   h4 {
     font-size: 25px;
     line-height: 1.5rem;
-  }
-
-  .ptdescription {
-    font-size: 23px;
-  }
-
-  .pttitle {
-    text-decoration: underline;
-    font-size: 30px;
+    font-weight: 600px;
   }
 
   /* H1 */
@@ -990,6 +984,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 75%;
+    margin-top: 20px;
   }
 
   .LFM img {
@@ -999,6 +994,29 @@
     padding-top: 15px;
     width: 75%;
   }
+
+  /* High Fidelity Mockups & Usability Tests Section */
+    .ptdescription {
+      font-size: 23px;
+    }
+
+    .pttitle {
+      text-decoration: underline;
+      font-size: 30px;
+      margin-top: 15px;
+    }
+
+    .testone img {
+      margin-bottom: 20px;
+    }
+
+    .testtwo img {
+      margin-bottom: 20px;
+    }
+
+    .testthree img {
+      margin-bottom: 20px;
+    }
 
   /* High Fidelity Mockups & Usability Tests Section */
     .HFM img {
@@ -1218,6 +1236,12 @@
   .pointboxtitle {
     padding-top: 15px;
     font-size: 44px;
+  }
+
+    .pttitle {
+    text-decoration: underline;
+    font-size: 30px;
+    margin-top: 35px;
   }
 
   /* Description of app */
