@@ -1114,7 +1114,7 @@
     }
 
     .conclusionsection {
-      padding-top: 40px;
+      padding-top: 35px;
     }
 
     /* Preference Testing Section */
@@ -1376,7 +1376,6 @@
 
   /* User Personas Tests Section */  
     .userpersonas {
-      padding-bottom: 25px;
       width: 100%;
       display: flex;
       justify-content: space-evenly;
