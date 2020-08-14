@@ -759,28 +759,43 @@
 
   /* User Research Section */
   .surveystatsB2 {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 1%;
-    padding-left: 5%;
     font-family: "Montserrat";
     width: 100%;
   }
 
   .stat1B2 {
     font-weight: 800;
-    width: 30%;
     
   }
 
   .stat2B2 {
     font-weight: 800;
-    width: 30%;
   }
 
   .stat3B2 {
     font-weight: 800;
-    width: 30%;
+  }
+
+  .piecharts3x {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+
+  .PieChart1 img {
+    width: 55%;
+  }
+
+  .PieChart2 img {
+    width: 34%;
+  }
+
+  .PieChart3 img {
+    width: 34%;
+  }
+
+  .surveydisplay {
+    display: flex;
   }
 
 
