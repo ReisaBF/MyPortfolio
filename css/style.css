@@ -758,45 +758,40 @@
   }
 
   /* User Research Section */
-  .surveystatsB2 {
-    font-family: "Montserrat";
-    width: 100%;
-  }
+    .statB2 {
+      font-weight: 800;
+    }
 
-  .stat1B2 {
-    font-weight: 800;
-    
-  }
+    .PieChart1 img {
+      width: 100%;
+    }
 
-  .stat2B2 {
-    font-weight: 800;
-  }
+    .PieChart1 {
+      width: 65%;
+    }
 
-  .stat3B2 {
-    font-weight: 800;
-  }
+    .PieChart2 img {
+      width: 100%;
+      padding-left: 58%;
+    }
 
-  .piecharts3x {
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-  }
+    .PieChart2 {
+      width: 40%;
+    }
 
-  .PieChart1 img {
-    width: 55%;
-  }
+    .PieChart3 img {
+      width: 100%;
+      padding-left: 58%;
+    }
 
-  .PieChart2 img {
-    width: 34%;
-  }
+    .PieChart3 {
+      width: 40%;
+    }
 
-  .PieChart3 img {
-    width: 34%;
-  }
-
-  .surveydisplay {
-    display: flex;
-  }
+    .surveydisplay {
+      display: flex;
+      justify-content: space-between;
+    }
 
 
 @media screen and (min-width: 768px) {
