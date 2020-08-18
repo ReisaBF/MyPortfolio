@@ -884,6 +884,14 @@
       margin-bottom: 5px;
     }
 
+    .styleguiderental img {
+      width: 75%;
+    }
+
+    .journeymap img {
+      width: 100%;
+    }
+
 
 @media screen and (min-width: 768px) {
 /* Universal CSS applied to ALL pages */
@@ -1192,13 +1200,6 @@
       width: 75%;
     }
 
-    .styleguide img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 75%;
-    }
-
     .stylebtn {
       margin-top: -15px;
       margin-left: 3%;
@@ -1438,6 +1439,13 @@
   
       .ynsection {
         padding-bottom: 75px;
+      }
+
+      .styleguiderental img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
       }
   }
 
@@ -1711,5 +1719,9 @@
     .RPLFM2 {
       width: 40%;
       display: inline-flex;
+    }
+
+    .styleguiderental img {
+      width: 50%;
     }
 }
