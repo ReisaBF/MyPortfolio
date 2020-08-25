@@ -892,6 +892,14 @@
       width: 100%;
     }
 
+    .draftone img {
+      width: 75%;
+      align-content: center;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 15px;
+    }
+
 
 @media screen and (min-width: 768px) {
 /* Universal CSS applied to ALL pages */
@@ -1705,10 +1713,11 @@
 
     /* Wireframes & Usability Tests Section */
     .RPLFM {
-      width: 120%;
-      margin-left: -10%;
+      width: 100%;
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin: 0 auto;
     }
 
     .RPLFM1 {
@@ -1723,5 +1732,18 @@
 
     .styleguiderental img {
       width: 50%;
+    }
+
+    .draft1tests {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin: 0 auto;
+    }
+
+    .draftone img {
+      width: 95%;
+      display: inline-flex;
     }
 }
