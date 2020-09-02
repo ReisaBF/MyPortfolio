@@ -1752,12 +1752,12 @@
     }
 
     .personagf2 {
-      min-height: 400px;
+      min-height: 525px;
       display: flex;
       justify-content: center;
       flex-direction: column;
       align-content: stretch;
-      margin-top: -7%;
+      margin-top: -10%;
       margin-bottom: -7px;
     }
 
