@@ -138,7 +138,7 @@
     margin-bottom: 15px;
     margin-top: 20px;
     margin-right: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
   }
 
   /* H1 */
@@ -395,8 +395,8 @@
       font-family: "Montserrat";
       line-height: 1.3;
       border-style: solid;
-      border-width: 2px #F00102;
-      background-color: #F00102;
+      border-width: 2px #2f5a71cb;
+      background-color: #2f5a71cb;
       padding: 10px;
     }
 
@@ -418,10 +418,9 @@
       font-weight: 800;
       color: #FFFFFF;
       border-style: solid;
-      border-width: 2px #F00102;
-      background-color: #F00102;
+      border-width: 2px #2f5a71cb;
+      background-color: #2f5a71cb;
       padding: 10px;
-      margin-top: -4px;
     }
 
     .personacallout {
@@ -435,13 +434,13 @@
     }
 
     .goalbullets {
-      color: #F00102;
+      color: #2F5A71;
       font-size: 18px;
       margin-top: -5px;
     }
 
     .frustbullets {
-      color: #F00102;
+      color: #2F5A71;
       font-size: 18px;
       margin-top: 20px;
     }
@@ -806,8 +805,8 @@
       font-family: "Montserrat";
       line-height: 1.3;
       border-style: solid;
-      border-width: 2px #434EB4;
-      background-color: #434EB4;
+      border-width: 2px #2f5a71cb;
+      background-color: #2f5a71cb;
       padding: 10px;
     }
 
@@ -816,20 +815,19 @@
       font-weight: 800;
       color: #FFFFFF;
       border-style: solid;
-      border-width: 2px #434EB4;
-      background-color: #434EB4;
+      border-width: 2px #2f5a71cb;
+      background-color: #2f5a71cb;
       padding: 10px;
-      margin-top: -4px;
     }
 
     .goalbullets2 {
-      color: #434EB4;
+      color: #2F5A71;
       font-size: 18px;
       margin-top: -5px;
     }
 
     .frustbullets2 {
-      color: #434EB4;
+      color: #2F5A71;
       font-size: 18px;
       margin-top: 20px;
     }
@@ -897,6 +895,7 @@
       margin-right: auto;
       display: block;
       margin-bottom: 5px;
+      box-shadow: 5px 5px 5px #666666;
     }
 
     .styleguiderental img {
@@ -993,40 +992,20 @@
       margin-top: 5%;
     }
 
-    .HeroImage {
-      width: 50%;
-      height: 50%;
-      display: inline-block;
-      margin-right: 50px;
-    }
-
-  .bioindex {
-    float: right;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 1%;
-  }
-
   /* H1 */
   .reisa {
     font-size: 44px;
-    text-align: left;
     line-height: 1.3;
   }
 
   .indexconnectbtn {
-    float: left;
     margin-bottom: 10px;
     margin-left: .5rem;
   }
 
   .introindex {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-evenly;
-  }
+      margin-top: -30px;
+    }
 
   button.indexconnectbtn {
     max-width: 300px;
@@ -1765,9 +1744,10 @@
     .RPLFM {
       width: 100%;
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: flex-start;
       margin: 0 auto;
+      margin-left: -5px;
     }
 
     .RPLFM1 {
@@ -1776,7 +1756,7 @@
     }
 
     .RPLFM2 {
-      width: 40%;
+      width: 45%;
       display: inline-flex;
     }
 
